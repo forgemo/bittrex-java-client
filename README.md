@@ -57,6 +57,7 @@ ApiSpec: https://bittrex.com/home/api
     </dependency>
 ```
 
+
 ## Examples
 
 ### List all Markets without credentials
@@ -73,7 +74,8 @@ ApiSpec: https://bittrex.com/home/api
     List<Market> markets = apiResult.unwrap();
 ```
 
-## List all your open orders using credentials
+
+### List all your open orders using credentials
 
 ```java
 
@@ -93,7 +95,9 @@ ApiSpec: https://bittrex.com/home/api
     List<OpenOrder> openOrders = apiResult.unwrap();
 ```
 
+
 ## How to get credentials for the non-public Bittrex api
+
 1. Create an account at bittrex.com
 2. Enable Two-Factor-Authentication in your account settings
 3. Create an api key with the required permissions in your account settings
