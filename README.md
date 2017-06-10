@@ -68,4 +68,4 @@ ApiSpec: https://bittrex.com/home/api
     }
 ```
 ## Do you like this library?
-### [Donate Bitcoins](bitcoin:18rdYGVpG5BZ7EFRie65E9pfvMSE47EEfV?amount=0.01&message=github.com/forgemo&time=1497081787)
+### Donate Bitcoins at [18rdYGVpG5BZ7EFRie65E9pfvMSE47EEfV](https://blockexplorer.com/address/18rdYGVpG5BZ7EFRie65E9pfvMSE47EEfV)
