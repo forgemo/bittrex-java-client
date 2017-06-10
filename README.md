@@ -21,7 +21,7 @@ ApiSpec: https://bittrex.com/home/api
 ### Market Api (Credentials required)
 - [ ] /market/buylimit 
 - [ ] /market/selllimit
-- [ ] /market/cancel
+- [X] /market/cancel
 - [X] /market/getopenorders
 
 ### Account Api (Credentials required)
