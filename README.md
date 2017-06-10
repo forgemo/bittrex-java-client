@@ -1,4 +1,4 @@
-v# bittrex-java-client
+# bittrex-java-client (v1.1)
 Java client for the bittrex.com v1.1 API
 
 ApiSpec: https://bittrex.com/home/api
