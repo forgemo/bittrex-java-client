@@ -1,10 +1,11 @@
-# bittrex-java-client - ApiVersion v1.1
+# bittrex-java-client
 
-Java client for the bittrex.com Api
+Java client for the bittrex.com api.
+It uses the api version 1.1.
 
 ApiSpec: https://bittrex.com/home/api
 
-## Implementation Progess
+## Implementation Status
 
 ### Public Api
 - [X] /public/getmarkets
@@ -15,13 +16,13 @@ ApiSpec: https://bittrex.com/home/api
 - [X] /public/getorderbook
 - [X] /public/getmarkethistory
 
-### Market Api (Requires credentials)
+### Market Api (Credentials required)
 - [ ] /market/buylimit 
 - [ ] /market/selllimit
 - [ ] /market/cancel
 - [X] /market/getopenorders
 
-### Account Api (Requires credentials)
+### Account Api (Credentials required)
 - [X] /account/getbalances
 - [X] /account/getbalance
 - [X] /account/getdepositaddress
@@ -32,9 +33,16 @@ ApiSpec: https://bittrex.com/home/api
 - [X] /account/getdeposithistory
 
 ### Stability
-- [ ] Unit tests
-- [ ] Integration tests with production Bittrex Api
-- [ ] Usage in real world applications
+- [X] Public Api - Basic Unit Tests
+- [ ] Market Api - Basic Unit Tests
+- [ ] Account Api - Basic Unit Tests
+- [ ] Public Api - Advanced Unit Tests
+- [ ] Market Api - Advanced Unit Tests
+- [ ] Account Api - Advanced Unit Tests
+- [X] Public Api - Tested with production backend
+- [ ] Market Api - Tested with production backend
+- [ ] Account Api - Tested with production backend
+- [ ] Used in real world applications
 
 
 ## Getting started with Maven
@@ -50,7 +58,10 @@ ApiSpec: https://bittrex.com/home/api
     </dependency>
 ```
 
-## Example 1: List all Markets without credentials
+
+## Examples
+
+### List all markets without credentials
 
 ```java
 
@@ -64,7 +75,8 @@ ApiSpec: https://bittrex.com/home/api
     List<Market> markets = apiResult.unwrap();
 ```
 
-## Example 2: List all your open orders using credentials
+
+### List all your open orders using credentials
 
 ```java
 
@@ -84,7 +96,9 @@ ApiSpec: https://bittrex.com/home/api
     List<OpenOrder> openOrders = apiResult.unwrap();
 ```
 
+
 ## How to get credentials for the non-public Bittrex api
+
 1. Create an account at bittrex.com
 2. Enable Two-Factor-Authentication in your account settings
 3. Create an api key with the required permissions in your account settings
