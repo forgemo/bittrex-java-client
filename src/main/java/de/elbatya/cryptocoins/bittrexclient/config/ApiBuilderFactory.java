@@ -1,12 +1,13 @@
 package de.elbatya.cryptocoins.bittrexclient.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.sun.istack.internal.Nullable;
 import de.elbatya.cryptocoins.bittrexclient.util.ApiKeySigningUtil;
 import feign.Feign;
 import feign.RequestInterceptor;
 import feign.jackson.JacksonDecoder;
 import feign.jackson.JacksonEncoder;
+
+import javax.annotation.Nullable;
 
 /**
  * @author contact@elbatya.de
@@ -22,6 +23,7 @@ public class ApiBuilderFactory {
     public Feign.Builder createApiBuilder(){
         return createApiBuilder(null);
     }
+
 
     public Feign.Builder createApiBuilder(@Nullable ApiCredentials credentials){
         ObjectMapper mapper = ObjectMapperConfigurer.configure(new ObjectMapper());

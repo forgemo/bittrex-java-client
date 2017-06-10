@@ -1,12 +1,17 @@
 package de.elbatya.cryptocoins.bittrexclient;
 
-import com.sun.istack.internal.Nullable;
+
 import de.elbatya.cryptocoins.bittrexclient.api.BittrexAccountApi;
 import de.elbatya.cryptocoins.bittrexclient.api.BittrexMarketApi;
 import de.elbatya.cryptocoins.bittrexclient.api.BittrexPublicApi;
 import de.elbatya.cryptocoins.bittrexclient.config.ApiBuilderFactory;
 import de.elbatya.cryptocoins.bittrexclient.config.ApiCredentials;
+import feign.Feign;
+import feign.Logger;
 import feign.Util;
+import feign.slf4j.Slf4jLogger;
+
+import javax.annotation.Nullable;
 
 /**
  * @author contact@elbatya.de
@@ -22,24 +27,46 @@ public class BittrexClient {
     private boolean credentialsAvailable = true;
 
     public BittrexClient() {
-        this(DEFAULT_BASE_URL, null);
+        this(DEFAULT_BASE_URL, null, null);
+    }
+
+    public BittrexClient(@Nullable Logger.Level logLevel) {
+        this(DEFAULT_BASE_URL, null, logLevel);
     }
 
     public BittrexClient(@Nullable ApiCredentials credentials) {
-        this(DEFAULT_BASE_URL, credentials);
+        this(DEFAULT_BASE_URL, credentials, null);
     }
 
-    public BittrexClient(String baseUrl, @Nullable ApiCredentials credentials) {
+    public BittrexClient(@Nullable ApiCredentials credentials, @Nullable Logger.Level logLevel) {
+        this(DEFAULT_BASE_URL, credentials, logLevel);
+    }
+
+
+    public BittrexClient(
+            String baseUrl,
+            @Nullable ApiCredentials credentials,
+            @Nullable Logger.Level logLevel)
+    {
         Util.checkNotNull(baseUrl, "The baseUrl must not be null!");
 
         ApiBuilderFactory apiBuilderFactory = new ApiBuilderFactory(baseUrl);
 
-        publicApi = apiBuilderFactory.createApiBuilder().target(BittrexPublicApi.class, baseUrl);
+        Feign.Builder apiBuilder = apiBuilderFactory.createApiBuilder(credentials);
+
+        if (logLevel != null) {
+            apiBuilder
+                    .logger(new Slf4jLogger(BittrexClient.class))
+                    .logLevel(logLevel);
+        }
+
+        publicApi = apiBuilder.target(BittrexPublicApi.class, baseUrl);
 
         credentialsAvailable = credentials != null;
+
         if(credentialsAvailable) {
-            marketApi = apiBuilderFactory.createApiBuilder(credentials).target(BittrexMarketApi.class, baseUrl);
-            accountApi = apiBuilderFactory.createApiBuilder(credentials).target(BittrexAccountApi.class, baseUrl);
+            marketApi = apiBuilder.target(BittrexMarketApi.class, baseUrl);
+            accountApi = apiBuilder.target(BittrexAccountApi.class, baseUrl);
         }
     }
 
