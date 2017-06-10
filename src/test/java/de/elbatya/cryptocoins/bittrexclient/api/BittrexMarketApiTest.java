@@ -38,7 +38,8 @@ public class BittrexMarketApiTest {
 
         mockClient = new MockClient()
         .ok(HttpMethod.GET, "/market/getopenorders", load("getopenorders.json"))
-        .ok(HttpMethod.GET, "/market/getopenorders?market=btc-eth", load("getopenorders.json"));
+        .ok(HttpMethod.GET, "/market/getopenorders?market=btc-eth", load("getopenorders.json"))
+        .ok(HttpMethod.GET, "/market/cancel?uuid=1234", load("cancelorder.json"));
 
         ObjectMapper strictMapper = ObjectMapperConfigurer.configure(new ObjectMapper());
         strictMapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, true);
@@ -65,5 +66,13 @@ public class BittrexMarketApiTest {
         assertThat(openOrders.isSuccess()).isTrue();
         assertThat(openOrders.getResult()).isNotEmpty();
     }
+
+    @Test
+    public void cancelOrder() throws Exception {
+        ApiResult<Void> openOrders = api.cancelOrder("1234");
+        assertThat(openOrders).isNotNull();
+        assertThat(openOrders.isSuccess()).isTrue();
+    }
+
 
 }

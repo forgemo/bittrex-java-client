@@ -18,4 +18,8 @@ public interface BittrexMarketApi {
     @RequestLine("GET /market/getopenorders?market={market}")
     ApiResult<List<OpenOrder>> getOpenOrders(@Param("market") String market);
 
+    @RequestLine("GET /market/cancel?uuid={orderUuid}")
+    ApiResult<Void> cancelOrder(@Param("orderUuid") String orderUuid);
+
+
 }
