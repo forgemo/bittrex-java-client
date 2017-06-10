@@ -1,4 +1,4 @@
-# bittrex-java-client - ApiVesion v1.1
+# bittrex-java-client - ApiVersion v1.1
 
 Java client for the bittrex.com Api
 
@@ -67,3 +67,4 @@ ApiSpec: https://bittrex.com/home/api
       List<OpenOrder> openOrders = apiResult.result();
     }
 ```
+l
