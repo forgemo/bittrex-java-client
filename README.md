@@ -57,7 +57,9 @@ ApiSpec: https://bittrex.com/home/api
     </dependency>
 ```
 
-## Example 1: List all Markets without credentials
+## Examples
+
+### List all Markets without credentials
 
 ```java
 
@@ -71,7 +73,7 @@ ApiSpec: https://bittrex.com/home/api
     List<Market> markets = apiResult.unwrap();
 ```
 
-## Example 2: List all your open orders using credentials
+## List all your open orders using credentials
 
 ```java
 
