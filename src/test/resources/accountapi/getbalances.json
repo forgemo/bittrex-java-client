@@ -1,0 +1,34 @@
+{
+  "success": true,
+  "message": "",
+  "result": [
+    {
+      "Currency": "BTC",
+      "Balance": 0.00000038,
+      "Available": 0.00000038,
+      "Pending": 0.00000000,
+      "CryptoAddress": "0000000AAAA00000AAA00000AAA0000AAA"
+    },
+    {
+      "Currency": "ETH",
+      "Balance": 0.00000000,
+      "Available": 0.00000000,
+      "Pending": 0.00000000,
+      "CryptoAddress": "0x000000AAAA00000AAA00000AAA0000AAA"
+    },
+    {
+      "Currency": "VRM",
+      "Balance": 0.00000000,
+      "Available": 0.00000000,
+      "Pending": 0.00000000,
+      "CryptoAddress": "0000000AAAA00000AAA00000AAA0000AAA"
+    },
+    {
+      "Currency": "WINGS",
+      "Balance": 188.35687667,
+      "Available": 158.35687667,
+      "Pending": 0.00000000,
+      "CryptoAddress": null
+    }
+  ]
+}

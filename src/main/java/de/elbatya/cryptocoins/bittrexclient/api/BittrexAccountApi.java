@@ -21,10 +21,10 @@ public interface BittrexAccountApi {
     @RequestLine("GET /account/getdepositaddress?currency={currency}")
     ApiResult<DepositAddress> getDepositAddress(@Param("currency") String currency);
 
-    @RequestLine("GET /account/getorder&uuid={uuid}")
+    @RequestLine("GET /account/getorder?uuid={uuid}")
     ApiResult<Order> getOrder(@Param("uuid") String uuid);
 
-    @RequestLine("GET /account/getorderhistory&market={market}")
+    @RequestLine("GET /account/getorderhistory?market={market}")
     ApiResult<List<OrderHistoryEntry>> getOrderHistory(@Param("market") String market);
 
     @RequestLine("GET /account/getorderhistory")

@@ -1,0 +1,12 @@
+{
+  "success": true,
+  "message": "",
+  "result": {
+    "Currency": "BTC",
+    "Balance": 0.00000038,
+    "Available": 0.00000038,
+    "Pending": 0.00000000,
+    "CryptoAddress": "0000000AAAA00000AAA00000AAA0000AAA"
+
+  }
+}

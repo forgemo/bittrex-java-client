@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "message": "",
+  "result": [
+    {
+      "Id": 19418817,
+      "Amount": 0.05929229,
+      "Currency": "BTC",
+      "Confirmations": 2,
+      "LastUpdated": "2017-06-06T21:26:52.423",
+      "TxId": "4bf29f18a6364691000254eb6c3485b8555a6fec4bf2dd440d20ecd41eb34c0d",
+      "CryptoAddress": "0000000AAAA00000AAA00000AAA0000AAA"
+    }
+  ]
+}

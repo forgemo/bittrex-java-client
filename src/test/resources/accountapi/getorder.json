@@ -1,0 +1,29 @@
+{
+  "success": true,
+  "message": "",
+  "result": {
+    "AccountId": null,
+    "OrderUuid": "aaaaaaaa-cbe8-4c57-b9de-c71194db3bd1",
+    "Exchange": "BTC-WINGS",
+    "Type": "LIMIT_SELL",
+    "Quantity": 30.00000000,
+    "QuantityRemaining": 30.00000000,
+    "Limit": 0.00050000,
+    "Reserved": 30.00000000,
+    "ReserveRemaining": 30.00000000,
+    "CommissionReserved": 0.00000000,
+    "CommissionReserveRemaining": 0.00000000,
+    "CommissionPaid": 0.00000000,
+    "Price": 0.00000000,
+    "PricePerUnit": null,
+    "Opened": "2017-06-09T22:45:26.743",
+    "Closed": null,
+    "IsOpen": true,
+    "Sentinel": "aaaaaaa-c6c5-4760-8fb1-3f5645d15893",
+    "CancelInitiated": false,
+    "ImmediateOrCancel": false,
+    "IsConditional": true,
+    "Condition": "GREATER_THAN",
+    "ConditionTarget": 0.00050000
+  }
+}

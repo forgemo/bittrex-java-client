@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "message": "",
+  "result": [
+    {
+      "OrderUuid": "aaaaaaaa-bbbb-cccc-dddd-cccccccccccc",
+      "Exchange": "BTC-WINGS",
+      "TimeStamp": "2017-06-06T21:59:40.713",
+      "OrderType": "LIMIT_BUY",
+      "Limit": 0.00031400,
+      "Quantity": 188.35687667,
+      "QuantityRemaining": 0.00000000,
+      "Commission": 0.00014786,
+      "Price": 0.05914405,
+      "PricePerUnit": 0.00031399000000000000,
+      "IsConditional": false,
+      "Condition": "NONE",
+      "ConditionTarget": null,
+      "ImmediateOrCancel": false,
+      "Closed": "2017-06-06T21:40:48.07"
+    }
+  ]
+}
