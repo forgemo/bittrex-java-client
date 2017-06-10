@@ -27,23 +27,39 @@ public interface BittrexPublicApi {
     @RequestLine("GET /public/getmarketsummary?market={market}")
     ApiResult<List<MarketSummary>> getMarketSummary(@Param("market") String market);
 
-    @RequestLine("GET /public/getorderbook?market={market}&type={type}&depth={depth}")
+    @RequestLine("GET /public/getorderbook?type=both&market={market}&depth={depth}")
     ApiResult<OrderBook> getOrderBook(
             @Param("market") String market,
-            @Param("type") OrderBookType type,
             @Param("depth") int depth
     );
 
-    @RequestLine("GET /public/getorderbook?market={market}&type={type}")
-    ApiResult<OrderBook> getOrderBook(
-            @Param("market") String market,
-            @Param("type") OrderBookType type
-    );
-
-    @RequestLine("GET /public/getorderbook?market={market}&type=both")
+    @RequestLine("GET /public/getorderbook?type=both&market={market}")
     ApiResult<OrderBook> getOrderBook(
             @Param("market") String market
     );
+
+    @RequestLine("GET /public/getorderbook?type=sell&market={market}&depth={depth}")
+    ApiResult<List<OrderBookEntry>> getOrderBookForSell(
+            @Param("market") String market,
+            @Param("depth") int depth
+    );
+
+    @RequestLine("GET /public/getorderbook?type=sell&market={market}")
+    ApiResult<List<OrderBookEntry>> getOrderBookForSell(
+            @Param("market") String market
+    );
+
+    @RequestLine("GET /public/getorderbook?type=buy&market={market}&depth={depth}")
+    ApiResult<List<OrderBookEntry>> getOrderBookForBuy(
+            @Param("market") String market,
+            @Param("depth") int depth
+    );
+
+    @RequestLine("GET /public/getorderbook?type=buy&market={market}")
+    ApiResult<List<OrderBookEntry>> getOrderBookForBuy(
+            @Param("market") String market
+    );
+
 
     @RequestLine("GET /public/getmarkethistory?market={market}")
     ApiResult<List<MarketHistoryEntry>> getMarketHistory(@Param("market") String market);
