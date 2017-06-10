@@ -50,14 +50,6 @@ ApiSpec: https://bittrex.com/home/api
     </dependency>
 ```
 
-## How to use the non-public Bittrex api
-1. Create an account at bittrex.com
-2. Enable Two-Factor-Authentication in your account settings
-3. Create an api key with the required permissions in your account settings
-4. Use the api key and secret like shown below
-4. Read https://bittrex.com/home/api for more infos
-
-
 ## Example 1: List all Markets without credentials
 
 ```java
@@ -91,6 +83,14 @@ ApiSpec: https://bittrex.com/home/api
     // Unwrap the results
     List<OpenOrder> openOrders = apiResult.unwrap();
 ```
+
+## How to get credentials for the non-public Bittrex api
+1. Create an account at bittrex.com
+2. Enable Two-Factor-Authentication in your account settings
+3. Create an api key with the required permissions in your account settings
+4. Use the api key and secret like shown below
+4. Read https://bittrex.com/home/api for more infos
+
 
 ## Do you like this library?
 ### Donate Bitcoins to [18rdYGVpG5BZ7EFRie65E9pfvMSE47EEfV](https://blockexplorer.com/address/18rdYGVpG5BZ7EFRie65E9pfvMSE47EEfV)
