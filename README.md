@@ -69,4 +69,4 @@ ApiSpec: https://bittrex.com/home/api
 ```
 ## Do you like this library?
 ### Donate Bitcoins to [18rdYGVpG5BZ7EFRie65E9pfvMSE47EEfV](https://blockexplorer.com/address/18rdYGVpG5BZ7EFRie65E9pfvMSE47EEfV)
-### Donate Etther to [0x10dcd290c3aa2393c005E981DED566C8fB75C182](https://etherscan.io/address/0x10dcd290c3aa2393c005E981DED566C8fB75C182)
+### Donate Ether to [0x10dcd290c3aa2393c005E981DED566C8fB75C182](https://etherscan.io/address/0x10dcd290c3aa2393c005E981DED566C8fB75C182)
