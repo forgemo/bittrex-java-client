@@ -4,7 +4,7 @@ Java client for the bittrex.com Api
 
 ApiSpec: https://bittrex.com/home/api
 
-## Implementation Progess
+## Implementation Status
 
 ### Public Api
 - [X] /public/getmarkets
