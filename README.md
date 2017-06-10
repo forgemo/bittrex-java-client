@@ -88,7 +88,7 @@ ApiSpec: https://bittrex.com/home/api
 1. Create an account at bittrex.com
 2. Enable Two-Factor-Authentication in your account settings
 3. Create an api key with the required permissions in your account settings
-4. Use the api key and secret like shown below
+4. Use the api key and secret like shown in the examples
 4. Read https://bittrex.com/home/api for more infos
 
 
