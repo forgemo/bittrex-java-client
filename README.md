@@ -67,4 +67,5 @@ ApiSpec: https://bittrex.com/home/api
       List<OpenOrder> openOrders = apiResult.result();
     }
 ```
-
+## Do you like this library?
+### [Donate Bitcoins](bitcoin:18rdYGVpG5BZ7EFRie65E9pfvMSE47EEfV?amount=0.01&message=github.com/forgemo&time=1497081787)
