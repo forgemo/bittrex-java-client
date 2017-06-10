@@ -15,13 +15,13 @@ ApiSpec: https://bittrex.com/home/api
 - [X] /public/getorderbook
 - [X] /public/getmarkethistory
 
-### Market Api (Only with Api-Key)
+### Market Api (Requires credentials)
 - [ ] /market/buylimit 
 - [ ] /market/selllimit
 - [ ] /market/cancel
 - [X] /market/getopenorders
 
-### Account Api (Only with Api-Key)
+### Account Api (Requires credentials)
 - [X] /account/getbalances
 - [X] /account/getbalance
 - [X] /account/getdepositaddress
@@ -33,40 +33,65 @@ ApiSpec: https://bittrex.com/home/api
 
 ### Stability
 - [ ] Unit tests
-- [ ] Integratien tests with real Bittrex Api
+- [ ] Integration tests with production Bittrex Api
 - [ ] Usage in real world applications
 
 
-## Example 1: PublicApi without credentials
+## Getting started with Maven
+1. Clone this repository
+2. Execute 'mvn install' to build the library and install it to your local maven repo
+3. Add the following dependency to your pom.xml
 
-```java
-
-    BittrexClient bittrexClient = new BittrexClient(); 
-
-    ApiResult<List<Market>> apiResult = bittrexClient.getPublicApi().getMarkets();
-    
-    if (result.isSuccess()) {
-      List<Market> markets = apiResult.result();
-    }
+```xml
+    <dependency>
+        <groupId>de.elbatya.cryptocoins</groupId>
+        <artifactId>bittrex-client</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </dependency>
 ```
 
-## Example 2: MarketApi with credentials
+## Example 1: List all Markets without credentials
 
 ```java
 
+    // Create a BittrexClient
+    BittrexClient bittrexClient = new BittrexClient(); 
+
+    // Perform a getMarkets request on the public api
+    ApiResult<List<Market>> apiResult = bittrexClient.getPublicApi().getMarkets();
+    
+    // Unwrap the results
+    List<Market> markets = apiResult.unwrap();
+```
+
+## Example 2: List all your open orders using credentials
+
+```java
+
+    // Ceate ApiCredentials with ApiKey and Secret from bittrex.com
     ApiCredentials credentials = new ApiCredentials( 
       "YourApiKeyFromBittrex.com", 
       "YourApiKeySecretFromBittrex.com" 
     ); 
-        
+    
+    // Create a BittrexClient with the ApiCredentials
     BittrexClient bittrexClient = new BittrexClient(credentials); 
 
+    // Perform a getOpenOrders request on the market api    
     ApiResult<List<OpenOrder>> apiResult = bittrexClient.getMarketApi().getOpenOrders();
     
-    if (result.isSuccess()) {
-      List<OpenOrder> openOrders = apiResult.result();
-    }
+    // Unwrap the results
+    List<OpenOrder> openOrders = apiResult.unwrap();
 ```
+
+## How to get credentials for the non-public Bittrex api
+1. Create an account at bittrex.com
+2. Enable Two-Factor-Authentication in your account settings
+3. Create an api key with the required permissions in your account settings
+4. Use the api key and secret like shown in the examples
+4. Read https://bittrex.com/home/api for more infos
+
+
 ## Do you like this library?
 ### Donate Bitcoins to [18rdYGVpG5BZ7EFRie65E9pfvMSE47EEfV](https://blockexplorer.com/address/18rdYGVpG5BZ7EFRie65E9pfvMSE47EEfV)
 ### Donate Ether to [0x10dcd290c3aa2393c005E981DED566C8fB75C182](https://etherscan.io/address/0x10dcd290c3aa2393c005E981DED566C8fB75C182)
