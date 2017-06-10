@@ -4,6 +4,7 @@ import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import de.elbatya.cryptocoins.bittrexclient.api.model.common.ApiResult;
 import de.elbatya.cryptocoins.bittrexclient.api.model.marketapi.OpenOrder;
+import de.elbatya.cryptocoins.bittrexclient.api.model.marketapi.OrderCreated;
 import de.elbatya.cryptocoins.bittrexclient.config.ObjectMapperConfigurer;
 import feign.Feign;
 import feign.jackson.JacksonDecoder;
@@ -24,6 +25,7 @@ import static org.assertj.core.api.Assertions.assertThat;
  */
 public class BittrexMarketApiTest {
 
+
     public static final String MARKET = "btc-eth";
     private MockClient mockClient;
     private BittrexMarketApi api;
@@ -39,7 +41,9 @@ public class BittrexMarketApiTest {
         mockClient = new MockClient()
         .ok(HttpMethod.GET, "/market/getopenorders", load("getopenorders.json"))
         .ok(HttpMethod.GET, "/market/getopenorders?market=btc-eth", load("getopenorders.json"))
-        .ok(HttpMethod.GET, "/market/cancel?uuid=1234", load("cancelorder.json"));
+        .ok(HttpMethod.GET, "/market/cancel?uuid=1234", load("cancelorder.json"))
+        .ok(HttpMethod.GET, "/market/selllimit?market=btc-eth&quantity=1.0&rate=2.0", load("selllimit.json"))
+        .ok(HttpMethod.GET, "/market/buylimit?market=btc-eth&quantity=3.0&rate=4.0", load("buylimit.json"));
 
         ObjectMapper strictMapper = ObjectMapperConfigurer.configure(new ObjectMapper());
         strictMapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, true);
@@ -72,6 +76,22 @@ public class BittrexMarketApiTest {
         ApiResult<Void> openOrders = api.cancelOrder("1234");
         assertThat(openOrders).isNotNull();
         assertThat(openOrders.isSuccess()).isTrue();
+    }
+
+    @Test
+    public void sellLimit() throws Exception {
+        ApiResult<OrderCreated> sellOrder = api.sellLimit(MARKET, 1d, 2d);
+        assertThat(sellOrder).isNotNull();
+        assertThat(sellOrder.isSuccess()).isTrue();
+        assertThat(sellOrder.unwrap().getUuid()).isEqualTo("selluuid");
+    }
+
+    @Test
+    public void buyLimit() throws Exception {
+        ApiResult<OrderCreated> buyOrder = api.buyLimit(MARKET, 3d, 4d);
+        assertThat(buyOrder).isNotNull();
+        assertThat(buyOrder.isSuccess()).isTrue();
+        assertThat(buyOrder.unwrap().getUuid()).isEqualTo("buyuuid");
     }
 
 
