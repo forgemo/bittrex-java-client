@@ -1,0 +1,2636 @@
+{
+  "success": true,
+  "message": "",
+  "result": [
+    {
+      "Currency": "BTC",
+      "CurrencyLong": "Bitcoin",
+      "MinConfirmation": 2,
+      "TxFee": 0.001,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": "1N52wHoVR79PMDishab2XmRHsbekCdGquK",
+      "Notice": null
+    },
+    {
+      "Currency": "LTC",
+      "CurrencyLong": "Litecoin",
+      "MinConfirmation": 6,
+      "TxFee": 0.002,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": "LhyLNfBkoKshT7R8Pce6vkB9T2cP2o84hx",
+      "Notice": null
+    },
+    {
+      "Currency": "DOGE",
+      "CurrencyLong": "Dogecoin",
+      "MinConfirmation": 6,
+      "TxFee": 2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": "D9GqmkGCpgtnXP7xMD78v9xfqeDkqBZBMT",
+      "Notice": null
+    },
+    {
+      "Currency": "VTC",
+      "CurrencyLong": "Vertcoin",
+      "MinConfirmation": 6,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "PPC",
+      "CurrencyLong": "Peercoin",
+      "MinConfirmation": 6,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "FTC",
+      "CurrencyLong": "Feathercoin",
+      "MinConfirmation": 20,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "RDD",
+      "CurrencyLong": "ReddCoin",
+      "MinConfirmation": 20,
+      "TxFee": 2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "NXT",
+      "CurrencyLong": "NXT",
+      "MinConfirmation": 8,
+      "TxFee": 2,
+      "IsActive": true,
+      "CoinType": "NXT",
+      "BaseAddress": "NXT-97H4-KRWL-A53G-7GVRG",
+      "Notice": null
+    },
+    {
+      "Currency": "DASH",
+      "CurrencyLong": "Dash",
+      "MinConfirmation": 6,
+      "TxFee": 0.002,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "POT",
+      "CurrencyLong": "PotCoin",
+      "MinConfirmation": 20,
+      "TxFee": 0.002,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "BLK",
+      "CurrencyLong": "BlackCoin",
+      "MinConfirmation": 6,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "EMC2",
+      "CurrencyLong": "Einsteinium",
+      "MinConfirmation": 5,
+      "TxFee": 0.2,
+      "IsActive": false,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": "Automated Maintenance."
+    },
+    {
+      "Currency": "MYR",
+      "CurrencyLong": "MyriadCoin",
+      "MinConfirmation": 20,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "AUR",
+      "CurrencyLong": "AuroraCoin",
+      "MinConfirmation": 5,
+      "TxFee": 0.002,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "UTC",
+      "CurrencyLong": "UltraCoin",
+      "MinConfirmation": 5,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "MZC",
+      "CurrencyLong": "MazaCoin",
+      "MinConfirmation": 6,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "EFL",
+      "CurrencyLong": "ElectronicGulden",
+      "MinConfirmation": 256,
+      "TxFee": 0.2,
+      "IsActive": false,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": "Automated Maintenance."
+    },
+    {
+      "Currency": "GLD",
+      "CurrencyLong": "GoldCoin",
+      "MinConfirmation": 20,
+      "TxFee": 0.0002,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "FAIR",
+      "CurrencyLong": "FairCoin",
+      "MinConfirmation": 20,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "SLR",
+      "CurrencyLong": "SolarCoin",
+      "MinConfirmation": 20,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "PTC",
+      "CurrencyLong": "PesetaCoin ",
+      "MinConfirmation": 40,
+      "TxFee": 0.002,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "GRS",
+      "CurrencyLong": "Groestlcoin",
+      "MinConfirmation": 20,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "NLG",
+      "CurrencyLong": "Gulden",
+      "MinConfirmation": 10,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOINEX",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "RBY",
+      "CurrencyLong": "RubyCoin",
+      "MinConfirmation": 10,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "XWC",
+      "CurrencyLong": "WhiteCoin",
+      "MinConfirmation": 20,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "MONA",
+      "CurrencyLong": "MonaCoin",
+      "MinConfirmation": 5,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "BITS",
+      "CurrencyLong": "BitStarCoin",
+      "MinConfirmation": 20,
+      "TxFee": 0.002,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "OC",
+      "CurrencyLong": "OrangeCoin",
+      "MinConfirmation": 20,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "THC",
+      "CurrencyLong": "HempCoin",
+      "MinConfirmation": 14,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": "HCt5LgCkUX39ekrQdEHaN8Rp5AHZP3MKTj",
+      "Notice": null
+    },
+    {
+      "Currency": "ENRG",
+      "CurrencyLong": "EnergyCoin",
+      "MinConfirmation": 20,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "SFR",
+      "CurrencyLong": "SaffronCoin",
+      "MinConfirmation": 20,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "ERC",
+      "CurrencyLong": "EuropeCoin",
+      "MinConfirmation": 20,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "NAUT",
+      "CurrencyLong": "NautilusCoin",
+      "MinConfirmation": 10,
+      "TxFee": 2,
+      "IsActive": true,
+      "CoinType": "NXT_MS",
+      "BaseAddress": "NXT-5BDK-RF4B-TAXN-92836",
+      "Notice": null
+    },
+    {
+      "Currency": "VRC",
+      "CurrencyLong": "VeriCoin",
+      "MinConfirmation": 5,
+      "TxFee": 0.0002,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "CURE",
+      "CurrencyLong": "CureCoin",
+      "MinConfirmation": 6,
+      "TxFee": 0.0002,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "BLC",
+      "CurrencyLong": "BlakeCoin",
+      "MinConfirmation": 20,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "XC",
+      "CurrencyLong": "XCurrency",
+      "MinConfirmation": 20,
+      "TxFee": 0.00002,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "XDQ",
+      "CurrencyLong": "Dirac",
+      "MinConfirmation": 6,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "XBB",
+      "CurrencyLong": "Boolberry",
+      "MinConfirmation": 15,
+      "TxFee": 0.0002,
+      "IsActive": true,
+      "CoinType": "CRYPTO_NOTE_PAYMENTID",
+      "BaseAddress": "1AxQp4KrZbETL4HHgh5PksNsdcUregZoSEsWvYWgUaMAMayq1ddWdFrQEg5DfUod4Ud6Sz2z6vQMAcMWRdLDTSmy2Conhvk",
+      "Notice": null
+    },
+    {
+      "Currency": "HYPER",
+      "CurrencyLong": "Hyper",
+      "MinConfirmation": 20,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "CCN",
+      "CurrencyLong": "CannaCoin",
+      "MinConfirmation": 10,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "XMR",
+      "CurrencyLong": "Monero",
+      "MinConfirmation": 8,
+      "TxFee": 0.04,
+      "IsActive": true,
+      "CoinType": "CRYPTO_NOTE_PAYMENTID",
+      "BaseAddress": "463tWEBn5XZJSxLU6uLQnQ2iY9xuNcDbjLSjkn3XAXHCbLrTTErJrBWYgHJQyrCwkNgYvyV3z8zctJLPCZy24jvb3NiTcTJ",
+      "Notice": null
+    },
+    {
+      "Currency": "CLOAK",
+      "CurrencyLong": "CloakCoin",
+      "MinConfirmation": 5,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "BSD",
+      "CurrencyLong": "BitSend",
+      "MinConfirmation": 20,
+      "TxFee": 0.002,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "CRYPT",
+      "CurrencyLong": "CryptCoin",
+      "MinConfirmation": 15,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "START",
+      "CurrencyLong": "StartCoin",
+      "MinConfirmation": 120,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "KORE",
+      "CurrencyLong": "KoreCoin",
+      "MinConfirmation": 6,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "XDN",
+      "CurrencyLong": "DigitalNote",
+      "MinConfirmation": 15,
+      "TxFee": 0.01,
+      "IsActive": true,
+      "CoinType": "CRYPTO_NOTE_PAYMENTID",
+      "BaseAddress": "dddpmAwrXsaHVTBMMpsHfERfBsJ348x77QR6wpQFJ4zqDoXdF4vxJEK6ar8rmvrL6AZRWMh8AE1pDbWvY9EdpXN638mpYCJ62",
+      "Notice": null
+    },
+    {
+      "Currency": "TRK",
+      "CurrencyLong": "TruckCoin",
+      "MinConfirmation": 20,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "QTL",
+      "CurrencyLong": "Quatloo",
+      "MinConfirmation": 6,
+      "TxFee": 0.02,
+      "IsActive": false,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": "Automated Maintenance."
+    },
+    {
+      "Currency": "TRUST",
+      "CurrencyLong": "TrustPlus",
+      "MinConfirmation": 20,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "NAV",
+      "CurrencyLong": "NAVCoin",
+      "MinConfirmation": 20,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "XST",
+      "CurrencyLong": "StealthCoin",
+      "MinConfirmation": 20,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "APEX",
+      "CurrencyLong": "ApexCoin",
+      "MinConfirmation": 20,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "BTCD",
+      "CurrencyLong": "BitcoinDark",
+      "MinConfirmation": 20,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "VIA",
+      "CurrencyLong": "ViaCoin",
+      "MinConfirmation": 20,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "TRI",
+      "CurrencyLong": "Triangles",
+      "MinConfirmation": 6,
+      "TxFee": 0.0002,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "UNO",
+      "CurrencyLong": "Unobtanium",
+      "MinConfirmation": 6,
+      "TxFee": 0.0002,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "PINK",
+      "CurrencyLong": "PinkCoin",
+      "MinConfirmation": 6,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "IOC",
+      "CurrencyLong": "I/OCoin",
+      "MinConfirmation": 6,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "SDC",
+      "CurrencyLong": "ShadowCash",
+      "MinConfirmation": 20,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": "The SDC wallet will be shut down on Jun 9th, 2017."
+    },
+    {
+      "Currency": "MAX",
+      "CurrencyLong": "MaxCoin",
+      "MinConfirmation": 6,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "LXC",
+      "CurrencyLong": "LibrexCoin",
+      "MinConfirmation": 20,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "BOB",
+      "CurrencyLong": "DobbsCoin",
+      "MinConfirmation": 6,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "CANN",
+      "CurrencyLong": "CannabisCoin",
+      "MinConfirmation": 100,
+      "TxFee": 0.2,
+      "IsActive": false,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": "Automated Maintenance."
+    },
+    {
+      "Currency": "FC2",
+      "CurrencyLong": "FuelCoin",
+      "MinConfirmation": 6,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "SSD",
+      "CurrencyLong": "SonicCoin",
+      "MinConfirmation": 6,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "J",
+      "CurrencyLong": "JoinCoin",
+      "MinConfirmation": 6,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "SYS",
+      "CurrencyLong": "SysCoin",
+      "MinConfirmation": 20,
+      "TxFee": 0.0002,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "NEOS",
+      "CurrencyLong": "NeosCoin",
+      "MinConfirmation": 3,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "DGB",
+      "CurrencyLong": "Digibyte",
+      "MinConfirmation": 6,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "ROOT",
+      "CurrencyLong": "RootCoin",
+      "MinConfirmation": 6,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "BTS",
+      "CurrencyLong": "BitShares",
+      "MinConfirmation": 2,
+      "TxFee": 5,
+      "IsActive": true,
+      "CoinType": "BITSHAREX",
+      "BaseAddress": "bittrex-deposit",
+      "Notice": null
+    },
+    {
+      "Currency": "BURST",
+      "CurrencyLong": "BURST",
+      "MinConfirmation": 10,
+      "TxFee": 2,
+      "IsActive": true,
+      "CoinType": "NXT",
+      "BaseAddress": "BURST-HK9D-P74Q-XDEJ-D6PGM",
+      "Notice": null
+    },
+    {
+      "Currency": "TIT",
+      "CurrencyLong": "TitCoin",
+      "MinConfirmation": 6,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "BSTY",
+      "CurrencyLong": "GlobalBoost-Y",
+      "MinConfirmation": 6,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "PXI",
+      "CurrencyLong": "Prime-XI",
+      "MinConfirmation": 6,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "DGC",
+      "CurrencyLong": "DigitalCoin",
+      "MinConfirmation": 6,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "SLG",
+      "CurrencyLong": "Sterlingcoin",
+      "MinConfirmation": 6,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "STV",
+      "CurrencyLong": "SativaCoin",
+      "MinConfirmation": 6,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "EXCL",
+      "CurrencyLong": "ExclusiveCoin",
+      "MinConfirmation": 6,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "SWIFT",
+      "CurrencyLong": "Bitswift",
+      "MinConfirmation": 6,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "ARCH",
+      "CurrencyLong": "ArchCoin",
+      "MinConfirmation": 6,
+      "TxFee": 0.002,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "NET",
+      "CurrencyLong": "NetCoin",
+      "MinConfirmation": 6,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "GHC",
+      "CurrencyLong": "GamerholicCoin",
+      "MinConfirmation": 6,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "DOPE",
+      "CurrencyLong": "DopeCoin",
+      "MinConfirmation": 6,
+      "TxFee": 0.002,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "BLOCK",
+      "CurrencyLong": "BlockNet",
+      "MinConfirmation": 6,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "ABY",
+      "CurrencyLong": "ArtByte",
+      "MinConfirmation": 6,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "VIOR",
+      "CurrencyLong": "ViorCoin",
+      "MinConfirmation": 6,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "BYC",
+      "CurrencyLong": "Bytecent",
+      "MinConfirmation": 20,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "UFO",
+      "CurrencyLong": "UFOCoin",
+      "MinConfirmation": 6,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "XMG",
+      "CurrencyLong": "Magi",
+      "MinConfirmation": 6,
+      "TxFee": 0.0002,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "XQN",
+      "CurrencyLong": "Quotient",
+      "MinConfirmation": 6,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "BLITZ",
+      "CurrencyLong": "Blitzcash",
+      "MinConfirmation": 6,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "VPN",
+      "CurrencyLong": "VPNCoin",
+      "MinConfirmation": 6,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "BAY",
+      "CurrencyLong": "BitBay",
+      "MinConfirmation": 6,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "DTC",
+      "CurrencyLong": "DayTraderCoin",
+      "MinConfirmation": 6,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "AM",
+      "CurrencyLong": "AeroME",
+      "MinConfirmation": 6,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "METAL",
+      "CurrencyLong": "MetalCoin",
+      "MinConfirmation": 2,
+      "TxFee": 20,
+      "IsActive": true,
+      "CoinType": "COUNTERPARTY",
+      "BaseAddress": "1AeqgtHedfA2yVXH6GiKLS2JGkfWfgyTC6",
+      "Notice": null
+    },
+    {
+      "Currency": "SPR",
+      "CurrencyLong": "SpreadCoin",
+      "MinConfirmation": 6,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "VTR",
+      "CurrencyLong": "vTorrent",
+      "MinConfirmation": 6,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN_STEALTH",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "XPY",
+      "CurrencyLong": "Paycoin",
+      "MinConfirmation": 6,
+      "TxFee": 0.002,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "XRP",
+      "CurrencyLong": "Ripple",
+      "MinConfirmation": 10,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "RIPPLE",
+      "BaseAddress": "rPVMhWBsfF9iMXYj3aAzJVkPDTFNSyWdKy",
+      "Notice": null
+    },
+    {
+      "Currency": "GAME",
+      "CurrencyLong": "GameCredits",
+      "MinConfirmation": 6,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "GP",
+      "CurrencyLong": "GoldPieces",
+      "MinConfirmation": 6,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "NXS",
+      "CurrencyLong": "Nexus",
+      "MinConfirmation": 6,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "COVAL",
+      "CurrencyLong": "Circuits of Value",
+      "MinConfirmation": 2,
+      "TxFee": 200,
+      "IsActive": true,
+      "CoinType": "COUNTERPARTY",
+      "BaseAddress": "1AeqgtHedfA2yVXH6GiKLS2JGkfWfgyTC6",
+      "Notice": null
+    },
+    {
+      "Currency": "FSC2",
+      "CurrencyLong": "FriendshipCoin2",
+      "MinConfirmation": 6,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "SOON",
+      "CurrencyLong": "SoonCoin",
+      "MinConfirmation": 6,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "HZ",
+      "CurrencyLong": "Horizon",
+      "MinConfirmation": 10,
+      "TxFee": 2,
+      "IsActive": true,
+      "CoinType": "NXT",
+      "BaseAddress": "NHZ-7ANN-LUFR-CCZU-6K44J",
+      "Notice": null
+    },
+    {
+      "Currency": "XCP",
+      "CurrencyLong": "Counterparty",
+      "MinConfirmation": 2,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "COUNTERPARTY",
+      "BaseAddress": "1AeqgtHedfA2yVXH6GiKLS2JGkfWfgyTC6",
+      "Notice": null
+    },
+    {
+      "Currency": "SJCX",
+      "CurrencyLong": "StorjCoinX",
+      "MinConfirmation": 2,
+      "TxFee": 2,
+      "IsActive": true,
+      "CoinType": "COUNTERPARTY",
+      "BaseAddress": "1AeqgtHedfA2yVXH6GiKLS2JGkfWfgyTC6",
+      "Notice": null
+    },
+    {
+      "Currency": "BITB",
+      "CurrencyLong": "BitBean",
+      "MinConfirmation": 6,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "XTC",
+      "CurrencyLong": "TileCoin",
+      "MinConfirmation": 2,
+      "TxFee": 100,
+      "IsActive": true,
+      "CoinType": "COUNTERPARTY",
+      "BaseAddress": "1AeqgtHedfA2yVXH6GiKLS2JGkfWfgyTC6",
+      "Notice": null
+    },
+    {
+      "Currency": "XVG",
+      "CurrencyLong": "Verge",
+      "MinConfirmation": 30,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "GEO",
+      "CurrencyLong": "GeoCoin",
+      "MinConfirmation": 120,
+      "TxFee": 0.002,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "FLDC",
+      "CurrencyLong": "FoldingCoin",
+      "MinConfirmation": 2,
+      "TxFee": 150,
+      "IsActive": true,
+      "CoinType": "COUNTERPARTY",
+      "BaseAddress": "1AeqgtHedfA2yVXH6GiKLS2JGkfWfgyTC6",
+      "Notice": null
+    },
+    {
+      "Currency": "WBB",
+      "CurrencyLong": "Wild Beast Block",
+      "MinConfirmation": 30,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": "Wallet will be removed on 6/23 - We are processing WITHDRAWALS ONLY.  Deposits will not be credited - https://twitter.com/WildBeastBTC/status/871389558990139392"
+    },
+    {
+      "Currency": "GEMZ",
+      "CurrencyLong": "Gemz",
+      "MinConfirmation": 2,
+      "TxFee": 5,
+      "IsActive": true,
+      "CoinType": "COUNTERPARTY",
+      "BaseAddress": "1AeqgtHedfA2yVXH6GiKLS2JGkfWfgyTC6",
+      "Notice": null
+    },
+    {
+      "Currency": "GRC",
+      "CurrencyLong": "GridCoin",
+      "MinConfirmation": 6,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "XCO",
+      "CurrencyLong": "X-Coin",
+      "MinConfirmation": 6,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "MTR",
+      "CurrencyLong": "MasterTraderCoin",
+      "MinConfirmation": 6,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "FLO",
+      "CurrencyLong": "Florin",
+      "MinConfirmation": 6,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "U",
+      "CurrencyLong": "UCoin",
+      "MinConfirmation": 6,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "NBT",
+      "CurrencyLong": "Nubits",
+      "MinConfirmation": 6,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "XEM",
+      "CurrencyLong": "NewEconomyMovement",
+      "MinConfirmation": 10,
+      "TxFee": 15,
+      "IsActive": true,
+      "CoinType": "NEM",
+      "BaseAddress": "ND2JRPQIWXHKAA26INVGA7SREEUMX5QAI6VU7HNR",
+      "Notice": null
+    },
+    {
+      "Currency": "MUE",
+      "CurrencyLong": "MonetaryUnit",
+      "MinConfirmation": 20,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "XVC",
+      "CurrencyLong": "Vcash",
+      "MinConfirmation": 2,
+      "TxFee": 0.002,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "8BIT",
+      "CurrencyLong": "8bit",
+      "MinConfirmation": 30,
+      "TxFee": 0.002,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "CLAM",
+      "CurrencyLong": "CLAMs",
+      "MinConfirmation": 6,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": "xHWM9sQVJS3WgLm88j29tpFfZw17TmbRoq",
+      "Notice": null
+    },
+    {
+      "Currency": "XSEED",
+      "CurrencyLong": "BitSeeds",
+      "MinConfirmation": 6,
+      "TxFee": 0.002,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "NTRN",
+      "CurrencyLong": "Neutron",
+      "MinConfirmation": 6,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "SLING",
+      "CurrencyLong": "Sling",
+      "MinConfirmation": 6,
+      "TxFee": 0.002,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "DMD",
+      "CurrencyLong": "Diamond",
+      "MinConfirmation": 6,
+      "TxFee": 0.002,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "GAM",
+      "CurrencyLong": "Gambit",
+      "MinConfirmation": 6,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "UNIT",
+      "CurrencyLong": "UniversalCurrency",
+      "MinConfirmation": 6,
+      "TxFee": 2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "GRT",
+      "CurrencyLong": "Grantcoin",
+      "MinConfirmation": 6,
+      "TxFee": 2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "VIRAL",
+      "CurrencyLong": "Viral",
+      "MinConfirmation": 6,
+      "TxFee": 0.002,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "SPHR",
+      "CurrencyLong": "Sphere",
+      "MinConfirmation": 6,
+      "TxFee": 0.002,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "ARB",
+      "CurrencyLong": "ArbitCoin",
+      "MinConfirmation": 6,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "OK",
+      "CurrencyLong": "OkCash",
+      "MinConfirmation": 6,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "ADC",
+      "CurrencyLong": "AudioCoin",
+      "MinConfirmation": 6,
+      "TxFee": 2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "SNRG",
+      "CurrencyLong": "Synergy",
+      "MinConfirmation": 6,
+      "TxFee": 0.002,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "PKB",
+      "CurrencyLong": "ParkByte",
+      "MinConfirmation": 6,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "TES",
+      "CurrencyLong": "TeslaCoin",
+      "MinConfirmation": 15,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "CPC",
+      "CurrencyLong": "CapriCoin",
+      "MinConfirmation": 6,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "AEON",
+      "CurrencyLong": "Aeon",
+      "MinConfirmation": 15,
+      "TxFee": 0.1,
+      "IsActive": true,
+      "CoinType": "CRYPTO_NOTE_PAYMENTID",
+      "BaseAddress": "WmtK9TQ6yd2ZWZDAkRsebc2ppzUq2Wuo9XRRjHMH2fvqM3ARVqk3styJ6AavJFcpJFPFtxRGAqGFoJMZGJ6YYzQ61TYGfpykX",
+      "Notice": null
+    },
+    {
+      "Currency": "BITZ",
+      "CurrencyLong": "Bitz",
+      "MinConfirmation": 6,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "ETH",
+      "CurrencyLong": "Ethereum",
+      "MinConfirmation": 36,
+      "TxFee": 0.001,
+      "IsActive": true,
+      "CoinType": "ETH",
+      "BaseAddress": "0xfbb1b73c4f0bda4f67dca266ce6ef42f520fbb98",
+      "Notice": null
+    },
+    {
+      "Currency": "GCR",
+      "CurrencyLong": "GlobalCurrencyReserve",
+      "MinConfirmation": 60,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "TX",
+      "CurrencyLong": "TransferCoin",
+      "MinConfirmation": 6,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "BCY",
+      "CurrencyLong": "BitCrystals",
+      "MinConfirmation": 2,
+      "TxFee": 5,
+      "IsActive": true,
+      "CoinType": "COUNTERPARTY",
+      "BaseAddress": "1AeqgtHedfA2yVXH6GiKLS2JGkfWfgyTC6",
+      "Notice": null
+    },
+    {
+      "Currency": "PRIME",
+      "CurrencyLong": "PrimeChain",
+      "MinConfirmation": 6,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "EXP",
+      "CurrencyLong": "Expanse",
+      "MinConfirmation": 60,
+      "TxFee": 0.01,
+      "IsActive": true,
+      "CoinType": "ETH",
+      "BaseAddress": "0xc9710872d3e65edbf7f8776829dd7b21f2085e40",
+      "Notice": null
+    },
+    {
+      "Currency": "NEU",
+      "CurrencyLong": "NeuCoin",
+      "MinConfirmation": 6,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "SWING",
+      "CurrencyLong": "SwingCoin",
+      "MinConfirmation": 6,
+      "TxFee": 0.1,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "INFX",
+      "CurrencyLong": "InfluxCoin",
+      "MinConfirmation": 6,
+      "TxFee": 0.1,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "SOIL",
+      "CurrencyLong": "SOILcoin",
+      "MinConfirmation": 60,
+      "TxFee": 0.1,
+      "IsActive": true,
+      "CoinType": "ETH",
+      "BaseAddress": "0x6b8c05cfa77258c5c7ba42b0467f5c00ce3eed02",
+      "Notice": null
+    },
+    {
+      "Currency": "OMNI",
+      "CurrencyLong": "OmniCoin",
+      "MinConfirmation": 1,
+      "TxFee": 0.1,
+      "IsActive": true,
+      "CoinType": "OMNI",
+      "BaseAddress": "1DUb2YYbQA1jjaNYzVXLZ7ZioEhLXtbUru",
+      "Notice": null
+    },
+    {
+      "Currency": "USDT",
+      "CurrencyLong": "Tether",
+      "MinConfirmation": 1,
+      "TxFee": 5,
+      "IsActive": true,
+      "CoinType": "OMNI",
+      "BaseAddress": "1DUb2YYbQA1jjaNYzVXLZ7ZioEhLXtbUru",
+      "Notice": null
+    },
+    {
+      "Currency": "AMP",
+      "CurrencyLong": "SynereoAmp",
+      "MinConfirmation": 1,
+      "TxFee": 0.1,
+      "IsActive": true,
+      "CoinType": "OMNI",
+      "BaseAddress": "1DUb2YYbQA1jjaNYzVXLZ7ZioEhLXtbUru",
+      "Notice": null
+    },
+    {
+      "Currency": "AGRS",
+      "CurrencyLong": "IDNI Agoras",
+      "MinConfirmation": 1,
+      "TxFee": 0.1,
+      "IsActive": true,
+      "CoinType": "OMNI",
+      "BaseAddress": "1DUb2YYbQA1jjaNYzVXLZ7ZioEhLXtbUru",
+      "Notice": null
+    },
+    {
+      "Currency": "XLM",
+      "CurrencyLong": "Lumen",
+      "MinConfirmation": 2,
+      "TxFee": 0.01,
+      "IsActive": true,
+      "CoinType": "LUMEN",
+      "BaseAddress": "GB6YPGW5JFMMP2QB2USQ33EUWTXVL4ZT5ITUNCY3YKVWOJPP57CANOF3",
+      "Notice": null
+    },
+    {
+      "Currency": "SPRTS",
+      "CurrencyLong": "Sprouts",
+      "MinConfirmation": 6,
+      "TxFee": 1,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "YBC",
+      "CurrencyLong": "YBCoin",
+      "MinConfirmation": 6,
+      "TxFee": 1,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "BTA",
+      "CurrencyLong": "Bata",
+      "MinConfirmation": 12,
+      "TxFee": 1,
+      "IsActive": false,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": "Wallet Maintenance"
+    },
+    {
+      "Currency": "MEC",
+      "CurrencyLong": "MegaCoin",
+      "MinConfirmation": 6,
+      "TxFee": 1,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "BITCNY",
+      "CurrencyLong": "BitCNY",
+      "MinConfirmation": 2,
+      "TxFee": 1.5,
+      "IsActive": true,
+      "CoinType": "BITSHAREX",
+      "BaseAddress": "bittrex-deposit",
+      "Notice": null
+    },
+    {
+      "Currency": "AMS",
+      "CurrencyLong": "AmsterdamCoin",
+      "MinConfirmation": 6,
+      "TxFee": 1,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "SCRT",
+      "CurrencyLong": "SecretCoin",
+      "MinConfirmation": 6,
+      "TxFee": 1,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "SCOT",
+      "CurrencyLong": "ScotCoin",
+      "MinConfirmation": 2,
+      "TxFee": 5,
+      "IsActive": true,
+      "CoinType": "COUNTERPARTY",
+      "BaseAddress": "1AeqgtHedfA2yVXH6GiKLS2JGkfWfgyTC6",
+      "Notice": null
+    },
+    {
+      "Currency": "CLUB",
+      "CurrencyLong": "ClubCoin",
+      "MinConfirmation": 6,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "BNT",
+      "CurrencyLong": "Bantam",
+      "MinConfirmation": 6,
+      "TxFee": 1,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "VOX",
+      "CurrencyLong": "Voxels",
+      "MinConfirmation": 6,
+      "TxFee": 0.1,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "MND",
+      "CurrencyLong": "MindCoin",
+      "MinConfirmation": 6,
+      "TxFee": 1,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "EMC",
+      "CurrencyLong": "EmerCoin",
+      "MinConfirmation": 6,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "FCT",
+      "CurrencyLong": "Factom",
+      "MinConfirmation": 2,
+      "TxFee": 0.1,
+      "IsActive": false,
+      "CoinType": "FACTOM",
+      "BaseAddress": "FA2MZs5wASMo9cCiKezdiQKCd8KA6Zbg2xKXKGmYEZBqon9J3ZKv",
+      "Notice": "Wallet Maintenance"
+    },
+    {
+      "Currency": "MAID",
+      "CurrencyLong": "MaidSafeCoin",
+      "MinConfirmation": 1,
+      "TxFee": 1,
+      "IsActive": true,
+      "CoinType": "OMNI",
+      "BaseAddress": "1DUb2YYbQA1jjaNYzVXLZ7ZioEhLXtbUru",
+      "Notice": null
+    },
+    {
+      "Currency": "FRK",
+      "CurrencyLong": "Franko",
+      "MinConfirmation": 30,
+      "TxFee": 0.002,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "EGC",
+      "CurrencyLong": "EverGreenCoin",
+      "MinConfirmation": 6,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "SLS",
+      "CurrencyLong": "SaluS",
+      "MinConfirmation": 6,
+      "TxFee": 0.002,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "ORB",
+      "CurrencyLong": "OrbitCoin",
+      "MinConfirmation": 6,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "STEPS",
+      "CurrencyLong": "Steps",
+      "MinConfirmation": 6,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "RADS",
+      "CurrencyLong": "Radium",
+      "MinConfirmation": 6,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "DCR",
+      "CurrencyLong": "Decred",
+      "MinConfirmation": 6,
+      "TxFee": 0.03,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "SEC",
+      "CurrencyLong": "SafeExchangeCoin",
+      "MinConfirmation": 1,
+      "TxFee": 1,
+      "IsActive": true,
+      "CoinType": "OMNI",
+      "BaseAddress": "1DUb2YYbQA1jjaNYzVXLZ7ZioEhLXtbUru",
+      "Notice": null
+    },
+    {
+      "Currency": "PIVX",
+      "CurrencyLong": "Pivx",
+      "MinConfirmation": 6,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "WARP",
+      "CurrencyLong": "WarpCoin",
+      "MinConfirmation": 6,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "CRBIT",
+      "CurrencyLong": "CreditBit",
+      "MinConfirmation": 6,
+      "TxFee": 1,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "MEME",
+      "CurrencyLong": "Memetic",
+      "MinConfirmation": 6,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "STEEM",
+      "CurrencyLong": "STEEM",
+      "MinConfirmation": 20,
+      "TxFee": 0.01,
+      "IsActive": true,
+      "CoinType": "STEEM",
+      "BaseAddress": "bittrex",
+      "Notice": null
+    },
+    {
+      "Currency": "2GIVE",
+      "CurrencyLong": "2GIVE",
+      "MinConfirmation": 6,
+      "TxFee": 0.01,
+      "IsActive": true,
+      "CoinType": "BITCOIN_PERCENTAGE_FEE",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "LSK",
+      "CurrencyLong": "Lisk",
+      "MinConfirmation": 77,
+      "TxFee": 0.1,
+      "IsActive": true,
+      "CoinType": "LISK",
+      "BaseAddress": "6687808873757044786L",
+      "Notice": null
+    },
+    {
+      "Currency": "KR",
+      "CurrencyLong": "Krypton",
+      "MinConfirmation": 20,
+      "TxFee": 0.01,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "PDC",
+      "CurrencyLong": "Project Decorum",
+      "MinConfirmation": 1,
+      "TxFee": 1,
+      "IsActive": true,
+      "CoinType": "OMNI",
+      "BaseAddress": "1DUb2YYbQA1jjaNYzVXLZ7ZioEhLXtbUru",
+      "Notice": null
+    },
+    {
+      "Currency": "DGD",
+      "CurrencyLong": "Digix DAO",
+      "MinConfirmation": 36,
+      "TxFee": 0.01,
+      "IsActive": true,
+      "CoinType": "ETH_CONTRACT",
+      "BaseAddress": "0xfbb1b73c4f0bda4f67dca266ce6ef42f520fbb98",
+      "Notice": null
+    },
+    {
+      "Currency": "BRK",
+      "CurrencyLong": "Breakout",
+      "MinConfirmation": 6,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "WAVES",
+      "CurrencyLong": "Waves",
+      "MinConfirmation": 20,
+      "TxFee": 0.001,
+      "IsActive": true,
+      "CoinType": "WAVES",
+      "BaseAddress": "3P31zvGdh6ai6JK6zZ18TjYzJsa1B83YPoj",
+      "Notice": null
+    },
+    {
+      "Currency": "RISE",
+      "CurrencyLong": "Rise",
+      "MinConfirmation": 77,
+      "TxFee": 0.1,
+      "IsActive": true,
+      "CoinType": "LISK",
+      "BaseAddress": "1644223775232371040R",
+      "Notice": null
+    },
+    {
+      "Currency": "LBC",
+      "CurrencyLong": "LBRY Credits",
+      "MinConfirmation": 6,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "SBD",
+      "CurrencyLong": "SteemDollars",
+      "MinConfirmation": 20,
+      "TxFee": 0.01,
+      "IsActive": true,
+      "CoinType": "STEEM",
+      "BaseAddress": "bittrex",
+      "Notice": null
+    },
+    {
+      "Currency": "BRX",
+      "CurrencyLong": "Breakout Stake",
+      "MinConfirmation": 6,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": ""
+    },
+    {
+      "Currency": "DRACO",
+      "CurrencyLong": "DT Token",
+      "MinConfirmation": 10,
+      "TxFee": 2,
+      "IsActive": true,
+      "CoinType": "NXT_MS",
+      "BaseAddress": "NXT-BAVX-TWZC-C9GH-FW9LJ",
+      "Notice": null
+    },
+    {
+      "Currency": "ETC",
+      "CurrencyLong": "Ethereum Classic",
+      "MinConfirmation": 72,
+      "TxFee": 0.01,
+      "IsActive": true,
+      "CoinType": "ETH",
+      "BaseAddress": "0xe592b0d8baa2cb677034389b76a71b0d1823e0d1",
+      "Notice": null
+    },
+    {
+      "Currency": "UNIQ",
+      "CurrencyLong": "Uniqredit",
+      "MinConfirmation": 6,
+      "TxFee": 0.1,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "STRAT",
+      "CurrencyLong": "Stratis",
+      "MinConfirmation": 6,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "UNB",
+      "CurrencyLong": "UnbreakableCoin",
+      "MinConfirmation": 6,
+      "TxFee": 0.2,
+      "IsActive": false,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": "Automated Maintenance."
+    },
+    {
+      "Currency": "SYNX",
+      "CurrencyLong": "Syndicate",
+      "MinConfirmation": 6,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "TRIG",
+      "CurrencyLong": "TRIG Token",
+      "MinConfirmation": 2,
+      "TxFee": 50,
+      "IsActive": true,
+      "CoinType": "COUNTERPARTY",
+      "BaseAddress": "1AeqgtHedfA2yVXH6GiKLS2JGkfWfgyTC6",
+      "Notice": null
+    },
+    {
+      "Currency": "EBST",
+      "CurrencyLong": "eBoost",
+      "MinConfirmation": 2,
+      "TxFee": 0.1,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "VRM",
+      "CurrencyLong": "Verium",
+      "MinConfirmation": 6,
+      "TxFee": 0.4,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "XAUR",
+      "CurrencyLong": "Xaurum",
+      "MinConfirmation": 36,
+      "TxFee": 0.1,
+      "IsActive": true,
+      "CoinType": "ETH_CONTRACT",
+      "BaseAddress": "0xfbb1b73c4f0bda4f67dca266ce6ef42f520fbb98",
+      "Notice": null
+    },
+    {
+      "Currency": "SEQ",
+      "CurrencyLong": "Sequence",
+      "MinConfirmation": 6,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "SNGLS",
+      "CurrencyLong": "SingularDTV",
+      "MinConfirmation": 36,
+      "TxFee": 1,
+      "IsActive": true,
+      "CoinType": "ETH_CONTRACT",
+      "BaseAddress": "0xfbb1b73c4f0bda4f67dca266ce6ef42f520fbb98",
+      "Notice": null
+    },
+    {
+      "Currency": "JWL",
+      "CurrencyLong": "Jewel",
+      "MinConfirmation": 6,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "REP",
+      "CurrencyLong": "Augur",
+      "MinConfirmation": 36,
+      "TxFee": 0.1,
+      "IsActive": true,
+      "CoinType": "ETH_CONTRACT",
+      "BaseAddress": "0xfbb1b73c4f0bda4f67dca266ce6ef42f520fbb98",
+      "Notice": null
+    },
+    {
+      "Currency": "SHIFT",
+      "CurrencyLong": "Shift",
+      "MinConfirmation": 77,
+      "TxFee": 0.1,
+      "IsActive": true,
+      "CoinType": "LISK",
+      "BaseAddress": "15128408768964966812S",
+      "Notice": null
+    },
+    {
+      "Currency": "ARDR",
+      "CurrencyLong": "Ardor",
+      "MinConfirmation": 10,
+      "TxFee": 2,
+      "IsActive": true,
+      "CoinType": "NXT_ASSET",
+      "BaseAddress": "NXT-XK2L-Z7NK-VNKM-AZYVT",
+      "Notice": null
+    },
+    {
+      "Currency": "XZC",
+      "CurrencyLong": "ZCoin",
+      "MinConfirmation": 6,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "ANS",
+      "CurrencyLong": "AntShares",
+      "MinConfirmation": 10,
+      "TxFee": 1,
+      "IsActive": true,
+      "CoinType": "ANTSHARES",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "ZEC",
+      "CurrencyLong": "ZCash",
+      "MinConfirmation": 30,
+      "TxFee": 0.0002,
+      "IsActive": true,
+      "CoinType": "BITCOINEX",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "ZCL",
+      "CurrencyLong": "Zclassic",
+      "MinConfirmation": 30,
+      "TxFee": 0.002,
+      "IsActive": false,
+      "CoinType": "BITCOINEX",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "IOP",
+      "CurrencyLong": "Internet Of People",
+      "MinConfirmation": 6,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "DAR",
+      "CurrencyLong": "Darcrus",
+      "MinConfirmation": 10,
+      "TxFee": 1,
+      "IsActive": true,
+      "CoinType": "NXT_ASSET",
+      "BaseAddress": "NXT-4GT5-5AA2-T2KH-67YMX",
+      "Notice": null
+    },
+    {
+      "Currency": "GOLOS",
+      "CurrencyLong": "Golos",
+      "MinConfirmation": 20,
+      "TxFee": 0.01,
+      "IsActive": false,
+      "CoinType": "STEEM",
+      "BaseAddress": "bittrex",
+      "Notice": "Wallet Maintenance"
+    },
+    {
+      "Currency": "GBG",
+      "CurrencyLong": "Gbg",
+      "MinConfirmation": 20,
+      "TxFee": 0.01,
+      "IsActive": false,
+      "CoinType": "STEEM",
+      "BaseAddress": "bittrex",
+      "Notice": "Wallet Maintenance"
+    },
+    {
+      "Currency": "UBQ",
+      "CurrencyLong": "Ubiq",
+      "MinConfirmation": 80,
+      "TxFee": 0.01,
+      "IsActive": true,
+      "CoinType": "ETH",
+      "BaseAddress": "0xb3c4e9ca7c12a6277deb9eef2dece65953d1c864",
+      "Notice": null
+    },
+    {
+      "Currency": "HKG",
+      "CurrencyLong": "HackerGold",
+      "MinConfirmation": 36,
+      "TxFee": 0.1,
+      "IsActive": true,
+      "CoinType": "ETH_CONTRACT",
+      "BaseAddress": "0xfbb1b73c4f0bda4f67dca266ce6ef42f520fbb98",
+      "Notice": null
+    },
+    {
+      "Currency": "KMD",
+      "CurrencyLong": "Komodo",
+      "MinConfirmation": 30,
+      "TxFee": 0.002,
+      "IsActive": true,
+      "CoinType": "BITCOINEX",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "SIB",
+      "CurrencyLong": "Siberian Chervonets",
+      "MinConfirmation": 6,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "ION",
+      "CurrencyLong": "Ion",
+      "MinConfirmation": 6,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "LMC",
+      "CurrencyLong": "Lomocoin",
+      "MinConfirmation": 6,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "QWARK",
+      "CurrencyLong": "Qwark",
+      "MinConfirmation": 36,
+      "TxFee": 0.1,
+      "IsActive": true,
+      "CoinType": "ETH_CONTRACT",
+      "BaseAddress": "0xb3c4e9ca7c12a6277deb9eef2dece65953d1c864",
+      "Notice": null
+    },
+    {
+      "Currency": "CRW",
+      "CurrencyLong": "Crown",
+      "MinConfirmation": 10,
+      "TxFee": 0.2,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "SWT",
+      "CurrencyLong": "Swarm City Token",
+      "MinConfirmation": 36,
+      "TxFee": 0.1,
+      "IsActive": true,
+      "CoinType": "ETH_CONTRACT",
+      "BaseAddress": "0xfbb1b73c4f0bda4f67dca266ce6ef42f520fbb98",
+      "Notice": null
+    },
+    {
+      "Currency": "TIME",
+      "CurrencyLong": "Chronobank Time",
+      "MinConfirmation": 36,
+      "TxFee": 0.1,
+      "IsActive": true,
+      "CoinType": "ETH_CONTRACT",
+      "BaseAddress": "0xfbb1b73c4f0bda4f67dca266ce6ef42f520fbb98",
+      "Notice": null
+    },
+    {
+      "Currency": "MLN",
+      "CurrencyLong": "Melon",
+      "MinConfirmation": 36,
+      "TxFee": 0.003,
+      "IsActive": true,
+      "CoinType": "ETH_CONTRACT",
+      "BaseAddress": "0xfbb1b73c4f0bda4f67dca266ce6ef42f520fbb98",
+      "Notice": null
+    },
+    {
+      "Currency": "TKS",
+      "CurrencyLong": "Tokes",
+      "MinConfirmation": 20,
+      "TxFee": 0.1,
+      "IsActive": true,
+      "CoinType": "WAVES_ASSET",
+      "BaseAddress": "3P31zvGdh6ai6JK6zZ18TjYzJsa1B83YPoj",
+      "Notice": null
+    },
+    {
+      "Currency": "ARK",
+      "CurrencyLong": "Ark",
+      "MinConfirmation": 51,
+      "TxFee": 0.1,
+      "IsActive": true,
+      "CoinType": "LISK",
+      "BaseAddress": "AUexKjGtgsSpVzPLs6jNMM6vJ6znEVTQWK",
+      "Notice": null
+    },
+    {
+      "Currency": "DYN",
+      "CurrencyLong": "Dynamic",
+      "MinConfirmation": 10,
+      "TxFee": 0.02,
+      "IsActive": true,
+      "CoinType": "BITCOIN",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "MUSIC",
+      "CurrencyLong": "Musicoin",
+      "MinConfirmation": 36,
+      "TxFee": 0.01,
+      "IsActive": true,
+      "CoinType": "ETH",
+      "BaseAddress": "0xea62a60b127efd524b6e19791bcb374a49302c71",
+      "Notice": null
+    },
+    {
+      "Currency": "DTB",
+      "CurrencyLong": "Databits",
+      "MinConfirmation": 2,
+      "TxFee": 5,
+      "IsActive": true,
+      "CoinType": "COUNTERPARTY",
+      "BaseAddress": "1AeqgtHedfA2yVXH6GiKLS2JGkfWfgyTC6",
+      "Notice": null
+    },
+    {
+      "Currency": "INCNT",
+      "CurrencyLong": "Incent",
+      "MinConfirmation": 20,
+      "TxFee": 0.1,
+      "IsActive": true,
+      "CoinType": "WAVES_ASSET",
+      "BaseAddress": "3P31zvGdh6ai6JK6zZ18TjYzJsa1B83YPoj",
+      "Notice": null
+    },
+    {
+      "Currency": "GBYTE",
+      "CurrencyLong": "Byteball",
+      "MinConfirmation": 1,
+      "TxFee": 0.002,
+      "IsActive": true,
+      "CoinType": "BYTEBALL",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "GNT",
+      "CurrencyLong": "Golem",
+      "MinConfirmation": 36,
+      "TxFee": 0.01,
+      "IsActive": true,
+      "CoinType": "ETH_CONTRACT",
+      "BaseAddress": "0xfbb1b73c4f0bda4f67dca266ce6ef42f520fbb98",
+      "Notice": null
+    },
+    {
+      "Currency": "NXC",
+      "CurrencyLong": "Nexium",
+      "MinConfirmation": 36,
+      "TxFee": 0.01,
+      "IsActive": true,
+      "CoinType": "ETH_CONTRACT",
+      "BaseAddress": "0xfbb1b73c4f0bda4f67dca266ce6ef42f520fbb98",
+      "Notice": null
+    },
+    {
+      "Currency": "EDG",
+      "CurrencyLong": "Edgeless",
+      "MinConfirmation": 36,
+      "TxFee": 1,
+      "IsActive": true,
+      "CoinType": "ETH_CONTRACT",
+      "BaseAddress": "0xfbb1b73c4f0bda4f67dca266ce6ef42f520fbb98",
+      "Notice": null
+    },
+    {
+      "Currency": "LGD",
+      "CurrencyLong": "Legends",
+      "MinConfirmation": 36,
+      "TxFee": 0.01,
+      "IsActive": true,
+      "CoinType": "ETH_CONTRACT",
+      "BaseAddress": "0xfbb1b73c4f0bda4f67dca266ce6ef42f520fbb98",
+      "Notice": null
+    },
+    {
+      "Currency": "TRST",
+      "CurrencyLong": "Trustcoin",
+      "MinConfirmation": 36,
+      "TxFee": 0.01,
+      "IsActive": true,
+      "CoinType": "ETH_CONTRACT",
+      "BaseAddress": "0xfbb1b73c4f0bda4f67dca266ce6ef42f520fbb98",
+      "Notice": null
+    },
+    {
+      "Currency": "WINGS",
+      "CurrencyLong": "Wings DAO",
+      "MinConfirmation": 36,
+      "TxFee": 0.01,
+      "IsActive": true,
+      "CoinType": "ETH_CONTRACT",
+      "BaseAddress": "0xfbb1b73c4f0bda4f67dca266ce6ef42f520fbb98",
+      "Notice": null
+    },
+    {
+      "Currency": "RLC",
+      "CurrencyLong": "iEx.ec",
+      "MinConfirmation": 36,
+      "TxFee": 0.01,
+      "IsActive": true,
+      "CoinType": "ETH_CONTRACT",
+      "BaseAddress": "0xfbb1b73c4f0bda4f67dca266ce6ef42f520fbb98",
+      "Notice": null
+    },
+    {
+      "Currency": "GNO",
+      "CurrencyLong": "Gnosis",
+      "MinConfirmation": 36,
+      "TxFee": 0.005,
+      "IsActive": true,
+      "CoinType": "ETH_CONTRACT",
+      "BaseAddress": "0xfbb1b73c4f0bda4f67dca266ce6ef42f520fbb98",
+      "Notice": null
+    },
+    {
+      "Currency": "GUP",
+      "CurrencyLong": "Guppy",
+      "MinConfirmation": 36,
+      "TxFee": 0.01,
+      "IsActive": true,
+      "CoinType": "ETH_CONTRACT",
+      "BaseAddress": "0xfbb1b73c4f0bda4f67dca266ce6ef42f520fbb98",
+      "Notice": null
+    },
+    {
+      "Currency": "LUN",
+      "CurrencyLong": "Lunyr",
+      "MinConfirmation": 36,
+      "TxFee": 0.01,
+      "IsActive": true,
+      "CoinType": "ETH_CONTRACT",
+      "BaseAddress": "0xfbb1b73c4f0bda4f67dca266ce6ef42f520fbb98",
+      "Notice": null
+    },
+    {
+      "Currency": "APX",
+      "CurrencyLong": "Apx",
+      "MinConfirmation": 36,
+      "TxFee": 0.1,
+      "IsActive": true,
+      "CoinType": "ETH_CONTRACT",
+      "BaseAddress": "0xb3c4e9ca7c12a6277deb9eef2dece65953d1c864",
+      "Notice": null
+    },
+    {
+      "Currency": "TKN",
+      "CurrencyLong": "TokenCard",
+      "MinConfirmation": 36,
+      "TxFee": 0.01,
+      "IsActive": true,
+      "CoinType": "ETH_CONTRACT",
+      "BaseAddress": "0xfbb1b73c4f0bda4f67dca266ce6ef42f520fbb98",
+      "Notice": null
+    },
+    {
+      "Currency": "HMQ",
+      "CurrencyLong": "Humaniq",
+      "MinConfirmation": 36,
+      "TxFee": 0.01,
+      "IsActive": true,
+      "CoinType": "ETH_CONTRACT",
+      "BaseAddress": "0xfbb1b73c4f0bda4f67dca266ce6ef42f520fbb98",
+      "Notice": null
+    },
+    {
+      "Currency": "ANT",
+      "CurrencyLong": "Aragon",
+      "MinConfirmation": 36,
+      "TxFee": 0.01,
+      "IsActive": true,
+      "CoinType": "ETH_CONTRACT",
+      "BaseAddress": "0xfbb1b73c4f0bda4f67dca266ce6ef42f520fbb98",
+      "Notice": null
+    },
+    {
+      "Currency": "ZEN",
+      "CurrencyLong": "ZenCash",
+      "MinConfirmation": 30,
+      "TxFee": 0.002,
+      "IsActive": false,
+      "CoinType": "BITCOINEX",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "SC",
+      "CurrencyLong": "Siacoin",
+      "MinConfirmation": 6,
+      "TxFee": 0.1,
+      "IsActive": true,
+      "CoinType": "SIA",
+      "BaseAddress": null,
+      "Notice": null
+    },
+    {
+      "Currency": "BAT",
+      "CurrencyLong": "Basic Attention Token",
+      "MinConfirmation": 36,
+      "TxFee": 0.01,
+      "IsActive": true,
+      "CoinType": "ETH_CONTRACT",
+      "BaseAddress": "0xfbb1b73c4f0bda4f67dca266ce6ef42f520fbb98",
+      "Notice": null
+    },
+    {
+      "Currency": "1ST",
+      "CurrencyLong": "Firstblood",
+      "MinConfirmation": 36,
+      "TxFee": 0.01,
+      "IsActive": true,
+      "CoinType": "ETH_CONTRACT",
+      "BaseAddress": "0xfbb1b73c4f0bda4f67dca266ce6ef42f520fbb98",
+      "Notice": null
+    },
+    {
+      "Currency": "QRL",
+      "CurrencyLong": "Quantum Resistant Ledger",
+      "MinConfirmation": 36,
+      "TxFee": 0.01,
+      "IsActive": true,
+      "CoinType": "ETH_CONTRACT",
+      "BaseAddress": "0xfbb1b73c4f0bda4f67dca266ce6ef42f520fbb98",
+      "Notice": null
+    }
+  ]
+}
