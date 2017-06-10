@@ -61,7 +61,7 @@ ApiSpec: https://bittrex.com/home/api
 
 ## Examples
 
-### List all Markets without credentials
+### List all markets without credentials
 
 ```java
 
