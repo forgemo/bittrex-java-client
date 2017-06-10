@@ -33,7 +33,7 @@ ApiSpec: https://bittrex.com/home/api
 
 ### Stability
 - [ ] Unit tests
-- [ ] Integratien tests with real Bittrex Api
+- [ ] Integration tests with production Bittrex Api
 - [ ] Usage in real world applications
 
 
