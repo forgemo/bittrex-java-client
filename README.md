@@ -16,7 +16,7 @@ ApiSpec: https://bittrex.com/home/api
 - [X] /public/getmarkethistory
 
 ### Market Api (Only with Api-Key)
-- [ ] /market/buylimit
+- [ ] /market/buylimit 
 - [ ] /market/selllimit
 - [ ] /market/cancel
 - [X] /market/getopenorders
