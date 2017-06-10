@@ -32,9 +32,16 @@ ApiSpec: https://bittrex.com/home/api
 - [X] /account/getdeposithistory
 
 ### Stability
-- [ ] Unit tests
-- [ ] Integration tests with production Bittrex Api
-- [ ] Usage in real world applications
+- [X] Public Api - Basic Unit Tests
+- [ ] Market Api - Basic Unit Tests
+- [ ] Account Api - Basic Unit Tests
+- [ ] Public Api - Advanced Unit Tests
+- [ ] Market Api - Advanced Unit Tests
+- [ ] Account Api - Advanced Unit Tests
+- [X] Public Api - Tested with production backend
+- [ ] Market Api - Tested with production backend
+- [ ] Account Api - Tested with production backend
+- [ ] Used in real world applications
 
 
 ## Getting started with Maven
