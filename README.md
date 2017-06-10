@@ -15,13 +15,13 @@ ApiSpec: https://bittrex.com/home/api
 - [X] /public/getorderbook
 - [X] /public/getmarkethistory
 
-### Market Api (Requires credentials)
+### Market Api (Credentials required)
 - [ ] /market/buylimit 
 - [ ] /market/selllimit
 - [ ] /market/cancel
 - [X] /market/getopenorders
 
-### Account Api (Requires credentials)
+### Account Api (Credentials required)
 - [X] /account/getbalances
 - [X] /account/getbalance
 - [X] /account/getdepositaddress
