@@ -67,4 +67,4 @@ ApiSpec: https://bittrex.com/home/api
       List<OpenOrder> openOrders = apiResult.result();
     }
 ```
-l
+
