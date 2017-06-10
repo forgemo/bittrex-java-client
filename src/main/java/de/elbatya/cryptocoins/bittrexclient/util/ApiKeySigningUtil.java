@@ -28,7 +28,7 @@ public class ApiKeySigningUtil {
         return bytesToHexString(signBytes);
     }
 
-    public static byte[] calculateSignBytes(String uri, String secret) {
+    private static byte[] calculateSignBytes(String uri, String secret) {
 
         try {
             Mac mac = Mac.getInstance(ALGORITHM);
