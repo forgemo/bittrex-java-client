@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/forgemo/bittrex-java-client.svg?branch=master)](https://travis-ci.org/forgemo/bittrex-java-client)
+[![Build Status](https://travis-ci.org/forgemo/bittrex-java-client.svg?branch=develop)](https://travis-ci.org/forgemo/bittrex-java-client)
 
 # bittrex-java-client
 
