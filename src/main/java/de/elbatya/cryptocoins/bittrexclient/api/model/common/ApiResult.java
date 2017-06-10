@@ -1,5 +1,7 @@
 package de.elbatya.cryptocoins.bittrexclient.api.model.common;
 
+import java.util.Optional;
+
 /**
  * @author contact@elbatya.de
  */
@@ -28,7 +30,16 @@ public class ApiResult<T> {
         return result;
     }
 
-    public void setResult(T result) {
-        this.result = result;
+    public Optional<T> getResultAsOptional() {
+        return Optional.ofNullable(result);
     }
+
+    public T unwrap() throws BittrexApiException {
+        if (result == null) {
+            String errorMessage = String.format("Message from Bittrex server: %s", this.message);
+            throw new BittrexApiException(errorMessage);
+        }
+        return result;
+    }
+
 }
