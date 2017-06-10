@@ -5,7 +5,7 @@ import java.time.LocalDateTime;
 /**
  * @author contact@elbatya.de
  */
-public abstract class AbstractTransactionHistoryEntry {
+public class DepositHistoryEntry {
 
     private String id;
     private Integer confirmations;
