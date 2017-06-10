@@ -25,7 +25,7 @@ ApiSpec: https://bittrex.com/home/api
 - [X] /account/getbalances
 - [X] /account/getbalance
 - [X] /account/getdepositaddress
-- [X] /account/withdraw
+- [ ] /account/withdraw
 - [X] /account/getorder
 - [X] /account/getorderhistory
 - [X] /account/getwithdrawalhistory 
