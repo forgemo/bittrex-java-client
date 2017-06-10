@@ -2,8 +2,6 @@ package de.elbatya.cryptocoins.bittrexclient.api;
 
 import de.elbatya.cryptocoins.bittrexclient.api.model.common.ApiResult;
 import de.elbatya.cryptocoins.bittrexclient.api.model.marketapi.OpenOrder;
-import de.elbatya.cryptocoins.bittrexclient.api.model.publicapi.OrderBook;
-import de.elbatya.cryptocoins.bittrexclient.api.model.publicapi.OrderBookType;
 import feign.Param;
 import feign.RequestLine;
 
