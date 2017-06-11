@@ -49,6 +49,8 @@ public class BittrexAccountApiTest {
                 .ok(HttpMethod.GET, "/account/getorderhistory?market=btc-eth", load("getorderhistoryformarket.json"))
                 .ok(HttpMethod.GET, "/account/getwithdrawalhistory?currency=btc", load("getwithdrawalhistory.json"))
                 .ok(HttpMethod.GET, "/account/getwithdrawalhistory", load("getwithdrawalhistory.json"))
+                .ok(HttpMethod.GET, "/account/withdraw?currency=btc&quantity=11.0&address=BTC_ADDRESS", load("withdraw.json"))
+                .ok(HttpMethod.GET, "/account/withdraw?currency=btc&quantity=11.0&address=BTC_ADDRESS&paymentid=note", load("withdraw.json"))
         ;
 
         ObjectMapper strictMapper = ObjectMapperConfigurer.configure(new ObjectMapper());
@@ -140,5 +142,33 @@ public class BittrexAccountApiTest {
         assertThat(depositHistory.isSuccess()).isTrue();
         assertThat(depositHistory.getResult()).isNotEmpty();
     }
+
+
+    @Test
+    public void withdraw() throws Exception {
+        ApiResult<WithdrawalRequested> depositHistory = api.withdraw(
+                CURRENCY,
+                11.0,
+                "BTC_ADDRESS");
+        assertThat(depositHistory).isNotNull();
+        assertThat(depositHistory.isSuccess()).isTrue();
+        assertThat(depositHistory.getResult()).isNotNull();
+    }
+
+
+    @Test
+    public void withdrawWithPaymentId() throws Exception {
+        ApiResult<WithdrawalRequested> depositHistory = api.withdraw(
+                CURRENCY,
+                11.0,
+                "BTC_ADDRESS",
+                "note"
+        );
+        assertThat(depositHistory).isNotNull();
+        assertThat(depositHistory.isSuccess()).isTrue();
+        assertThat(depositHistory.getResult()).isNotNull();
+    }
+
+
 
 }
