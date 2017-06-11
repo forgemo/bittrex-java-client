@@ -9,44 +9,6 @@ ApiSpec: https://bittrex.com/home/api
 
 Warning! This library is fairly young and **not considered stable**. 
 Use it with caution ... especially the market api.
-## Implementation Status
-
-### Public Api
-- [X] /public/getmarkets
-- [X] /public/getcurrencies
-- [X] /public/getticker
-- [X] /public/getmarketsummaries
-- [X] /public/getmarketsummary
-- [X] /public/getorderbook
-- [X] /public/getmarkethistory
-
-### Market Api (Credentials required)
-- [X] /market/buylimit 
-- [X] /market/selllimit
-- [X] /market/cancel
-- [X] /market/getopenorders
-
-### Account Api (Credentials required)
-- [X] /account/getbalances
-- [X] /account/getbalance
-- [X] /account/getdepositaddress
-- [ ] /account/withdraw
-- [X] /account/getorder
-- [X] /account/getorderhistory
-- [X] /account/getwithdrawalhistory 
-- [X] /account/getdeposithistory
-
-### Stability
-- [X] Public Api - Basic Unit Tests
-- [X] Market Api - Basic Unit Tests
-- [X] Account Api - Basic Unit Tests
-- [ ] Public Api - Advanced Unit Tests
-- [ ] Market Api - Advanced Unit Tests
-- [ ] Account Api - Advanced Unit Tests
-- [X] Public Api - Tested with production backend
-- [X] Market Api - Tested with production backend
-- [X] Account Api - Tested with production backend
-- [ ] Used in real world applications
 
 
 ## Getting started with Maven
@@ -109,6 +71,45 @@ Use it with caution ... especially the market api.
 4. Use the api key and secret like shown in the examples
 4. Read https://bittrex.com/home/api for more infos
 
+
+## Implementation Status
+
+### Public Api
+- [X] /public/getmarkets
+- [X] /public/getcurrencies
+- [X] /public/getticker
+- [X] /public/getmarketsummaries
+- [X] /public/getmarketsummary
+- [X] /public/getorderbook
+- [X] /public/getmarkethistory
+
+### Market Api (Credentials required)
+- [X] /market/buylimit 
+- [X] /market/selllimit
+- [X] /market/cancel
+- [X] /market/getopenorders
+
+### Account Api (Credentials required)
+- [X] /account/getbalances
+- [X] /account/getbalance
+- [X] /account/getdepositaddress
+- [X] /account/withdraw
+- [X] /account/getorder
+- [X] /account/getorderhistory
+- [X] /account/getwithdrawalhistory 
+- [X] /account/getdeposithistory
+
+### Stability
+- [X] Public Api - Basic Unit Tests
+- [X] Market Api - Basic Unit Tests
+- [X] Account Api - Basic Unit Tests
+- [ ] Public Api - Advanced Unit Tests
+- [ ] Market Api - Advanced Unit Tests
+- [ ] Account Api - Advanced Unit Tests
+- [X] Public Api - Tested with production backend
+- [X] Market Api - Tested with production backend
+- [X] Account Api - Tested with production backend
+- [ ] Used in real world applications
 
 ## Do you like this library?
 ### Donate Bitcoins to [18rdYGVpG5BZ7EFRie65E9pfvMSE47EEfV](https://blockexplorer.com/address/18rdYGVpG5BZ7EFRie65E9pfvMSE47EEfV)
