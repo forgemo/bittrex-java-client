@@ -7,6 +7,8 @@ It uses the api version 1.1.
 
 ApiSpec: https://bittrex.com/home/api
 
+Warning! This library is fairly young and **not considered stable**. 
+Use it with caution ... especially the market api.
 ## Implementation Status
 
 ### Public Api
