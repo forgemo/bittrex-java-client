@@ -109,6 +109,7 @@ Use it with caution ... especially the market api.
 - [X] Public Api - Tested with production backend
 - [X] Market Api - Tested with production backend
 - [X] Account Api - Tested with production backend
+- [X] Used in low budget / low risk real world applications 
 - [ ] Used in real world applications
 
 ## Do you like this library?
