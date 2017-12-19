@@ -1,7 +1,5 @@
 package de.elbatya.cryptocoins.bittrexclient.api.model.marketapi;
 
-import javafx.beans.binding.BooleanExpression;
-
 import java.time.LocalDateTime;
 
 /**
@@ -20,7 +18,7 @@ public class OpenOrder {
     private Double price;
     private Double pricePerUnit;
     private LocalDateTime opened;
-    private Boolean closed;
+    private LocalDateTime closed;
     private Boolean cancelInitiated;
     private Boolean immediateOrCancel;
     private Boolean isConditional;
@@ -115,11 +113,11 @@ public class OpenOrder {
         this.opened = opened;
     }
 
-    public Boolean getClosed() {
+    public LocalDateTime getClosed() {
         return closed;
     }
 
-    public void setClosed(Boolean closed) {
+    public void setClosed(LocalDateTime closed) {
         this.closed = closed;
     }
 

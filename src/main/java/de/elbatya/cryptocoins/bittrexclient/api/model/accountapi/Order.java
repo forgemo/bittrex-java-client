@@ -21,7 +21,7 @@ public class Order {
     private Double price;
     private Double pricePerUnit;
     private LocalDateTime opened;
-    private Boolean closed;
+    private LocalDateTime closed;
     private Boolean isOpen;
     private String sentinel;
     private Boolean cancelInitiated;
@@ -150,11 +150,11 @@ public class Order {
         this.opened = opened;
     }
 
-    public Boolean getClosed() {
+    public LocalDateTime getClosed() {
         return closed;
     }
 
-    public void setClosed(Boolean closed) {
+    public void setClosed(LocalDateTime closed) {
         this.closed = closed;
     }
 
