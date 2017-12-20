@@ -20,7 +20,7 @@ Use it with caution ... especially the market api.
     <dependency>
         <groupId>de.elbatya.cryptocoins</groupId>
         <artifactId>bittrex-client</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0</version>
     </dependency>
 ```
 
