@@ -1,5 +1,6 @@
 package de.elbatya.cryptocoins.bittrexclient.api.model.accountapi;
 
+import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 /**
@@ -12,12 +13,12 @@ public class DepositHistoryEntry {
     private LocalDateTime lastUpdated;
     private String paymentUuid;
     private String currency;
-    private Double amount;
+    private BigDecimal amount;
     private String cryptoAddress;
     private LocalDateTime opened;
     private Boolean authorized;
     private Boolean pendingPayment;
-    private Double txCost;
+    private BigDecimal txCost;
     private String txId;
     private Boolean canceled;
     private Boolean invalidAddress;
@@ -70,11 +71,11 @@ public class DepositHistoryEntry {
         this.currency = currency;
     }
 
-    public Double getAmount() {
+    public BigDecimal getAmount() {
         return amount;
     }
 
-    public void setAmount(Double amount) {
+    public void setAmount(BigDecimal amount) {
         this.amount = amount;
     }
 
@@ -110,11 +111,11 @@ public class DepositHistoryEntry {
         this.pendingPayment = pendingPayment;
     }
 
-    public Double getTxCost() {
+    public BigDecimal getTxCost() {
         return txCost;
     }
 
-    public void setTxCost(Double txCost) {
+    public void setTxCost(BigDecimal txCost) {
         this.txCost = txCost;
     }
 

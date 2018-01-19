@@ -16,6 +16,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import java.io.InputStream;
+import java.math.BigDecimal;
 import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -42,8 +43,8 @@ public class BittrexMarketApiTest {
         .ok(HttpMethod.GET, "/market/getopenorders", load("getopenorders.json"))
         .ok(HttpMethod.GET, "/market/getopenorders?market=btc-eth", load("getopenorders.json"))
         .ok(HttpMethod.GET, "/market/cancel?uuid=1234", load("cancelorder.json"))
-        .ok(HttpMethod.GET, "/market/selllimit?market=btc-eth&quantity=1.0&rate=2.0", load("selllimit.json"))
-        .ok(HttpMethod.GET, "/market/buylimit?market=btc-eth&quantity=3.0&rate=4.0", load("buylimit.json"));
+        .ok(HttpMethod.GET, "/market/selllimit?market=btc-eth&quantity=1&rate=2", load("selllimit.json"))
+        .ok(HttpMethod.GET, "/market/buylimit?market=btc-eth&quantity=3&rate=4", load("buylimit.json"));
 
         ObjectMapper strictMapper = ObjectMapperConfigurer.configure(new ObjectMapper());
         strictMapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, true);
@@ -80,7 +81,7 @@ public class BittrexMarketApiTest {
 
     @Test
     public void sellLimit() throws Exception {
-        ApiResult<OrderCreated> sellOrder = api.sellLimit(MARKET, 1d, 2d);
+        ApiResult<OrderCreated> sellOrder = api.sellLimit(MARKET, BigDecimal.ONE, BigDecimal.valueOf(2));
         assertThat(sellOrder).isNotNull();
         assertThat(sellOrder.isSuccess()).isTrue();
         assertThat(sellOrder.unwrap().getUuid()).isEqualTo("selluuid");
@@ -88,7 +89,7 @@ public class BittrexMarketApiTest {
 
     @Test
     public void buyLimit() throws Exception {
-        ApiResult<OrderCreated> buyOrder = api.buyLimit(MARKET, 3d, 4d);
+        ApiResult<OrderCreated> buyOrder = api.buyLimit(MARKET, BigDecimal.valueOf(3), BigDecimal.valueOf(4));
         assertThat(buyOrder).isNotNull();
         assertThat(buyOrder.isSuccess()).isTrue();
         assertThat(buyOrder.unwrap().getUuid()).isEqualTo("buyuuid");

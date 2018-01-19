@@ -1,26 +1,28 @@
 package de.elbatya.cryptocoins.bittrexclient.api.model.publicapi;
 
+import java.math.BigDecimal;
+
 /**
  * @author contact@elbatya.de
  */
 public class OrderBookEntry {
 
-    private Double Quantity;
-    private Double Rate;
+    private BigDecimal Quantity;
+    private BigDecimal Rate;
 
-    public Double getQuantity() {
+    public BigDecimal getQuantity() {
         return Quantity;
     }
 
-    public void setQuantity(Double quantity) {
+    public void setQuantity(BigDecimal quantity) {
         Quantity = quantity;
     }
 
-    public Double getRate() {
+    public BigDecimal getRate() {
         return Rate;
     }
 
-    public void setRate(Double rate) {
+    public void setRate(BigDecimal rate) {
         Rate = rate;
     }
 }

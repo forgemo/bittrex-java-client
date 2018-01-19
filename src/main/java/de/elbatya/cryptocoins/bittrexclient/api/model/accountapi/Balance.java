@@ -1,14 +1,16 @@
 package de.elbatya.cryptocoins.bittrexclient.api.model.accountapi;
 
+import java.math.BigDecimal;
+
 /**
  * @author contact@elbatya.de
  */
 public class Balance {
 
     private String currency;
-    private Double balance;
-    private Double available;
-    private Double pending;
+    private BigDecimal balance;
+    private BigDecimal available;
+    private BigDecimal pending;
     private String cryptoAddress;
     private Boolean requested;
     private String uuid;
@@ -21,27 +23,27 @@ public class Balance {
         this.currency = currency;
     }
 
-    public Double getBalance() {
+    public BigDecimal getBalance() {
         return balance;
     }
 
-    public void setBalance(Double balance) {
+    public void setBalance(BigDecimal balance) {
         this.balance = balance;
     }
 
-    public Double getAvailable() {
+    public BigDecimal getAvailable() {
         return available;
     }
 
-    public void setAvailable(Double available) {
+    public void setAvailable(BigDecimal available) {
         this.available = available;
     }
 
-    public Double getPending() {
+    public BigDecimal getPending() {
         return pending;
     }
 
-    public void setPending(Double pending) {
+    public void setPending(BigDecimal pending) {
         this.pending = pending;
     }
 

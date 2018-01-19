@@ -1,5 +1,6 @@
 package de.elbatya.cryptocoins.bittrexclient.api.model.publicapi;
 
+import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 /**
@@ -8,17 +9,17 @@ import java.time.LocalDateTime;
 public class MarketSummary {
 
     private String marketName;
-    private Double high;
-    private Double low;
-    private Double volume;
-    private Double last;
-    private Double baseVolume;
+    private BigDecimal high;
+    private BigDecimal low;
+    private BigDecimal volume;
+    private BigDecimal last;
+    private BigDecimal baseVolume;
     private LocalDateTime timeStamp;
-    private Double bid;
-    private Double ask;
+    private BigDecimal bid;
+    private BigDecimal ask;
     private Integer openBuyOrders;
     private Integer openSellOrders;
-    private Double prevDay;
+    private BigDecimal prevDay;
     private LocalDateTime created;
 
     public String getMarketName() {
@@ -29,60 +30,60 @@ public class MarketSummary {
         this.marketName = marketName;
     }
 
-    public Double getHigh() {
+    public BigDecimal getHigh() {
         return high;
     }
 
-    public void setHigh(Double high) {
+    public void setHigh(BigDecimal high) {
         this.high = high;
     }
 
-    public Double getLow() {
+    public BigDecimal getLow() {
         return low;
     }
 
-    public void setLow(Double low) {
+    public void setLow(BigDecimal low) {
         this.low = low;
     }
 
-    public Double getVolume() {
+    public BigDecimal getVolume() {
         return volume;
     }
 
-    public void setVolume(Double volume) {
+    public void setVolume(BigDecimal volume) {
         this.volume = volume;
     }
 
-    public Double getLast() {
+    public BigDecimal getLast() {
         return last;
     }
 
-    public void setLast(Double last) {
+    public void setLast(BigDecimal last) {
         this.last = last;
     }
 
-    public Double getBaseVolume() {
+    public BigDecimal getBaseVolume() {
         return baseVolume;
     }
 
-    public void setBaseVolume(Double baseVolume) {
+    public void setBaseVolume(BigDecimal baseVolume) {
         this.baseVolume = baseVolume;
     }
 
 
-    public Double getBid() {
+    public BigDecimal getBid() {
         return bid;
     }
 
-    public void setBid(Double bid) {
+    public void setBid(BigDecimal bid) {
         this.bid = bid;
     }
 
-    public Double getAsk() {
+    public BigDecimal getAsk() {
         return ask;
     }
 
-    public void setAsk(Double ask) {
+    public void setAsk(BigDecimal ask) {
         this.ask = ask;
     }
 
@@ -102,11 +103,11 @@ public class MarketSummary {
         this.openSellOrders = openSellOrders;
     }
 
-    public Double getPrevDay() {
+    public BigDecimal getPrevDay() {
         return prevDay;
     }
 
-    public void setPrevDay(Double prevDay) {
+    public void setPrevDay(BigDecimal prevDay) {
         this.prevDay = prevDay;
     }
 

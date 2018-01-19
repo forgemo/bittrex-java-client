@@ -1,5 +1,7 @@
 package de.elbatya.cryptocoins.bittrexclient.api.model.publicapi;
 
+import java.math.BigDecimal;
+
 /**
  * @author contact@elbatya.de
  */
@@ -8,7 +10,7 @@ public class Currency {
     private String currency;
     private String currencyLong;
     private Integer minConfirmation;
-    private Double txFee;
+    private BigDecimal txFee;
     private Boolean isActive;
     private String coinType;
     private String baseAddress;
@@ -39,11 +41,11 @@ public class Currency {
         this.minConfirmation = minConfirmation;
     }
 
-    public Double getTxFee() {
+    public BigDecimal getTxFee() {
         return txFee;
     }
 
-    public void setTxFee(Double txFee) {
+    public void setTxFee(BigDecimal txFee) {
         this.txFee = txFee;
     }
 

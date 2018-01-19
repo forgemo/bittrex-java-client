@@ -1,5 +1,6 @@
 package de.elbatya.cryptocoins.bittrexclient.api.model.accountapi;
 
+import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 /**
@@ -10,16 +11,16 @@ public class Order {
     private String orderUuid;
     private String exchange;
     private String type;
-    private Double quantity;
-    private Double quantityRemaining;
-    private Double limit;
-    private Double reserved;
-    private Double reserveRemaining;
-    private Double commissionReserved;
-    private Double commissionReserveRemaining;
-    private Double commissionPaid;
-    private Double price;
-    private Double pricePerUnit;
+    private BigDecimal quantity;
+    private BigDecimal quantityRemaining;
+    private BigDecimal limit;
+    private BigDecimal reserved;
+    private BigDecimal reserveRemaining;
+    private BigDecimal commissionReserved;
+    private BigDecimal commissionReserveRemaining;
+    private BigDecimal commissionPaid;
+    private BigDecimal price;
+    private BigDecimal pricePerUnit;
     private LocalDateTime opened;
     private LocalDateTime closed;
     private Boolean isOpen;
@@ -62,83 +63,83 @@ public class Order {
         this.type = type;
     }
 
-    public Double getQuantity() {
+    public BigDecimal getQuantity() {
         return quantity;
     }
 
-    public void setQuantity(Double quantity) {
+    public void setQuantity(BigDecimal quantity) {
         this.quantity = quantity;
     }
 
-    public Double getQuantityRemaining() {
+    public BigDecimal getQuantityRemaining() {
         return quantityRemaining;
     }
 
-    public void setQuantityRemaining(Double quantityRemaining) {
+    public void setQuantityRemaining(BigDecimal quantityRemaining) {
         this.quantityRemaining = quantityRemaining;
     }
 
-    public Double getLimit() {
+    public BigDecimal getLimit() {
         return limit;
     }
 
-    public void setLimit(Double limit) {
+    public void setLimit(BigDecimal limit) {
         this.limit = limit;
     }
 
-    public Double getReserved() {
+    public BigDecimal getReserved() {
         return reserved;
     }
 
-    public void setReserved(Double reserved) {
+    public void setReserved(BigDecimal reserved) {
         this.reserved = reserved;
     }
 
-    public Double getReserveRemaining() {
+    public BigDecimal getReserveRemaining() {
         return reserveRemaining;
     }
 
-    public void setReserveRemaining(Double reserveRemaining) {
+    public void setReserveRemaining(BigDecimal reserveRemaining) {
         this.reserveRemaining = reserveRemaining;
     }
 
-    public Double getCommissionReserved() {
+    public BigDecimal getCommissionReserved() {
         return commissionReserved;
     }
 
-    public void setCommissionReserved(Double commissionReserved) {
+    public void setCommissionReserved(BigDecimal commissionReserved) {
         this.commissionReserved = commissionReserved;
     }
 
-    public Double getCommissionReserveRemaining() {
+    public BigDecimal getCommissionReserveRemaining() {
         return commissionReserveRemaining;
     }
 
-    public void setCommissionReserveRemaining(Double commissionReserveRemaining) {
+    public void setCommissionReserveRemaining(BigDecimal commissionReserveRemaining) {
         this.commissionReserveRemaining = commissionReserveRemaining;
     }
 
-    public Double getCommissionPaid() {
+    public BigDecimal getCommissionPaid() {
         return commissionPaid;
     }
 
-    public void setCommissionPaid(Double commissionPaid) {
+    public void setCommissionPaid(BigDecimal commissionPaid) {
         this.commissionPaid = commissionPaid;
     }
 
-    public Double getPrice() {
+    public BigDecimal getPrice() {
         return price;
     }
 
-    public void setPrice(Double price) {
+    public void setPrice(BigDecimal price) {
         this.price = price;
     }
 
-    public Double getPricePerUnit() {
+    public BigDecimal getPricePerUnit() {
         return pricePerUnit;
     }
 
-    public void setPricePerUnit(Double pricePerUnit) {
+    public void setPricePerUnit(BigDecimal pricePerUnit) {
         this.pricePerUnit = pricePerUnit;
     }
 

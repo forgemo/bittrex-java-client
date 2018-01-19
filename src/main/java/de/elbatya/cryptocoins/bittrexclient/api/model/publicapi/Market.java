@@ -1,5 +1,6 @@
 package de.elbatya.cryptocoins.bittrexclient.api.model.publicapi;
 
+import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 /**
@@ -13,7 +14,7 @@ public class Market {
     private String baseCurrency;
     private String baseCurrencyLong;
 
-    private Double minTradeSize;
+    private BigDecimal minTradeSize;
 
     private String marketName;
 
@@ -60,11 +61,11 @@ public class Market {
         this.baseCurrencyLong = baseCurrencyLong;
     }
 
-    public Double getMinTradeSize() {
+    public BigDecimal getMinTradeSize() {
         return minTradeSize;
     }
 
-    public void setMinTradeSize(Double minTradeSize) {
+    public void setMinTradeSize(BigDecimal minTradeSize) {
         this.minTradeSize = minTradeSize;
     }
 

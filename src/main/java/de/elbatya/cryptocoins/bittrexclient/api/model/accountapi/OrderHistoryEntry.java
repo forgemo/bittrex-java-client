@@ -1,5 +1,6 @@
 package de.elbatya.cryptocoins.bittrexclient.api.model.accountapi;
 
+import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 /**
@@ -10,12 +11,12 @@ public class OrderHistoryEntry {
     private String exchange;
     private LocalDateTime timeStamp;
     private String orderType;
-    private Double limit;
-    private Double quantity;
-    private Double quantityRemaining;
-    private Double commission;
-    private Double price;
-    private Double pricePerUnit;
+    private BigDecimal limit;
+    private BigDecimal quantity;
+    private BigDecimal quantityRemaining;
+    private BigDecimal commission;
+    private BigDecimal price;
+    private BigDecimal pricePerUnit;
     private Boolean isConditional;
     private String condition;
     private String conditionTarget;
@@ -54,51 +55,51 @@ public class OrderHistoryEntry {
         this.orderType = orderType;
     }
 
-    public Double getLimit() {
+    public BigDecimal getLimit() {
         return limit;
     }
 
-    public void setLimit(Double limit) {
+    public void setLimit(BigDecimal limit) {
         this.limit = limit;
     }
 
-    public Double getQuantity() {
+    public BigDecimal getQuantity() {
         return quantity;
     }
 
-    public void setQuantity(Double quantity) {
+    public void setQuantity(BigDecimal quantity) {
         this.quantity = quantity;
     }
 
-    public Double getQuantityRemaining() {
+    public BigDecimal getQuantityRemaining() {
         return quantityRemaining;
     }
 
-    public void setQuantityRemaining(Double quantityRemaining) {
+    public void setQuantityRemaining(BigDecimal quantityRemaining) {
         this.quantityRemaining = quantityRemaining;
     }
 
-    public Double getCommission() {
+    public BigDecimal getCommission() {
         return commission;
     }
 
-    public void setCommission(Double commission) {
+    public void setCommission(BigDecimal commission) {
         this.commission = commission;
     }
 
-    public Double getPrice() {
+    public BigDecimal getPrice() {
         return price;
     }
 
-    public void setPrice(Double price) {
+    public void setPrice(BigDecimal price) {
         this.price = price;
     }
 
-    public Double getPricePerUnit() {
+    public BigDecimal getPricePerUnit() {
         return pricePerUnit;
     }
 
-    public void setPricePerUnit(Double pricePerUnit) {
+    public void setPricePerUnit(BigDecimal pricePerUnit) {
         this.pricePerUnit = pricePerUnit;
     }
 

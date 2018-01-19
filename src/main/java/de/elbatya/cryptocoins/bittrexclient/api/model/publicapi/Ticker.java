@@ -1,35 +1,37 @@
 package de.elbatya.cryptocoins.bittrexclient.api.model.publicapi;
 
+import java.math.BigDecimal;
+
 /**
  * @author contact@elbatya.de
  */
 public class Ticker {
 
-    private Double bid;
-    private Double ask;
-    private Double last;
+    private BigDecimal bid;
+    private BigDecimal ask;
+    private BigDecimal last;
 
-    public Double getBid() {
+    public BigDecimal getBid() {
         return bid;
     }
 
-    public void setBid(Double bid) {
+    public void setBid(BigDecimal bid) {
         this.bid = bid;
     }
 
-    public Double getAsk() {
+    public BigDecimal getAsk() {
         return ask;
     }
 
-    public void setAsk(Double ask) {
+    public void setAsk(BigDecimal ask) {
         this.ask = ask;
     }
 
-    public Double getLast() {
+    public BigDecimal getLast() {
         return last;
     }
 
-    public void setLast(Double last) {
+    public void setLast(BigDecimal last) {
         this.last = last;
     }
 }

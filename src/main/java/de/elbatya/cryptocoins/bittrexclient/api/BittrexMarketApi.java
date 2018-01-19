@@ -6,6 +6,7 @@ import de.elbatya.cryptocoins.bittrexclient.api.model.marketapi.OrderCreated;
 import feign.Param;
 import feign.RequestLine;
 
+import java.math.BigDecimal;
 import java.util.List;
 
 /**
@@ -25,15 +26,15 @@ public interface BittrexMarketApi {
     @RequestLine("GET /market/selllimit?market={market}&quantity={quantity}&rate={rate}")
     ApiResult<OrderCreated> sellLimit(
             @Param("market") String market,
-            @Param("quantity") Double quantity,
-            @Param("rate") Double rate
+            @Param("quantity") BigDecimal quantity,
+            @Param("rate") BigDecimal rate
     );
 
     @RequestLine("GET /market/buylimit?market={market}&quantity={quantity}&rate={rate}")
     ApiResult<OrderCreated> buyLimit(
             @Param("market") String market,
-            @Param("quantity") Double quantity,
-            @Param("rate") Double rate
+            @Param("quantity") BigDecimal quantity,
+            @Param("rate") BigDecimal rate
     );
 
 

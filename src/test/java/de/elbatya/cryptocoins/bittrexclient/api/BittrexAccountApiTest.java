@@ -15,6 +15,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import java.io.InputStream;
+import java.math.BigDecimal;
 import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -148,7 +149,7 @@ public class BittrexAccountApiTest {
     public void withdraw() throws Exception {
         ApiResult<WithdrawalRequested> depositHistory = api.withdraw(
                 CURRENCY,
-                11.0,
+                BigDecimal.valueOf(11.0),
                 "BTC_ADDRESS");
         assertThat(depositHistory).isNotNull();
         assertThat(depositHistory.isSuccess()).isTrue();
@@ -160,7 +161,7 @@ public class BittrexAccountApiTest {
     public void withdrawWithPaymentId() throws Exception {
         ApiResult<WithdrawalRequested> depositHistory = api.withdraw(
                 CURRENCY,
-                11.0,
+                BigDecimal.valueOf(11.0),
                 "BTC_ADDRESS",
                 "note"
         );

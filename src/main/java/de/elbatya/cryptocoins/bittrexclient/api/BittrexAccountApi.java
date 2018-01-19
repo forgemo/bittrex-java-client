@@ -5,6 +5,7 @@ import de.elbatya.cryptocoins.bittrexclient.api.model.common.ApiResult;
 import feign.Param;
 import feign.RequestLine;
 
+import java.math.BigDecimal;
 import java.util.List;
 
 /**
@@ -24,7 +25,7 @@ public interface BittrexAccountApi {
     @RequestLine("GET /account/withdraw?currency={currency}&quantity={quantity}&address={address}&paymentid={paymentid}")
     ApiResult<WithdrawalRequested> withdraw(
             @Param("currency") String currency,
-            @Param("quantity") double quantity,
+            @Param("quantity") BigDecimal quantity,
             @Param("address") String address,
             @Param("paymentid") String paymentId
     );
@@ -32,7 +33,7 @@ public interface BittrexAccountApi {
     @RequestLine("GET /account/withdraw?currency={currency}&quantity={quantity}&address={address}")
     ApiResult<WithdrawalRequested> withdraw(
             @Param("currency") String currency,
-            @Param("quantity") double quantity,
+            @Param("quantity") BigDecimal quantity,
             @Param("address") String address
     );
 
