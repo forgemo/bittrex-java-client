@@ -10,6 +10,8 @@ ApiSpec: https://bittrex.com/home/api
 Warning! This library is fairly young and **not considered stable**. 
 Use it with caution ... especially the market api.
 
+## Breaking change in 2.0
+For greater precision, double values have been replaced by BigDecimal.
 
 ## Getting started with Maven
 1. Clone this repository
@@ -20,7 +22,7 @@ Use it with caution ... especially the market api.
     <dependency>
         <groupId>de.elbatya.cryptocoins</groupId>
         <artifactId>bittrex-client</artifactId>
-        <version>1.0</version>
+        <version>2.0</version>
     </dependency>
 ```
 
