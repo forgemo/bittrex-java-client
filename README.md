@@ -13,18 +13,69 @@ Use it with caution ... especially the market api.
 ## Breaking change in 2.0
 For greater precision, double values have been replaced by BigDecimal.
 
-## Getting started with Maven
+## Getting started
+
+### Building from code with Maven (preferred)
 1. Clone this repository
 2. Execute 'mvn install' to build the library and install it to your local maven repo
-3. Add the following dependency to your pom.xml
+3. Add the following dependency to your projects pom.xml
 
-```xml
+    ```xml
     <dependency>
         <groupId>de.elbatya.cryptocoins</groupId>
         <artifactId>bittrex-client</artifactId>
         <version>2.0</version>
     </dependency>
-```
+    ```
+### Prebuild binaries via JitPack
+Note: Using JitPack is more convenient but less secure. There is no mechanism in place to ensure the authenticity of a downloaded artifact.
+
+#### Maven via JitPack
+1. Add the JitPack repository to your build file.
+    
+    ```xml
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
+    ```
+
+2. Add the dependency
+
+    ```xml
+    <dependency>
+        <groupId>com.github.forgemo</groupId>
+        <artifactId>bittrex-java-client</artifactId>
+        <version>v2.0</version>
+    </dependency>
+    ```
+        
+
+
+#### Gradle via JitPack 
+1. Add the JitPack repository to your build file. Add it in your root build.gradle at the end of repositories:
+
+    ```groovy        
+    allprojects {
+        repositories {
+            ...
+            maven { url 'https://jitpack.io' }
+        }
+    }
+    ``` 
+
+2. Add the dependency
+
+    ```groovy
+    dependencies {
+       compile 'com.github.forgemo:bittrex-java-client:v2.0'
+    }
+    ```
+
+#### Others via JitPack
+https://jitpack.io/#forgemo/bittrex-java-client/v2.0
 
 
 ## Examples
