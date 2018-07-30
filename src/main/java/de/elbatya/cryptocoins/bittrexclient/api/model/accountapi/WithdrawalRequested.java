@@ -13,4 +13,11 @@ public class WithdrawalRequested {
     public void setUuid(String uuid) {
         this.uuid = uuid;
     }
+
+    @Override
+    public String toString() {
+        return "WithdrawalRequested{" +
+                "uuid='" + uuid + '\'' +
+                '}';
+    }
 }

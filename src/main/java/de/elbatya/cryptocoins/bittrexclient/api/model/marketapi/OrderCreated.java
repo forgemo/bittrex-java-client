@@ -14,4 +14,11 @@ public class OrderCreated {
     public void setUuid(String uuid) {
         this.uuid = uuid;
     }
+
+    @Override
+    public String toString() {
+        return "OrderCreated{" +
+                "uuid='" + uuid + '\'' +
+                '}';
+    }
 }

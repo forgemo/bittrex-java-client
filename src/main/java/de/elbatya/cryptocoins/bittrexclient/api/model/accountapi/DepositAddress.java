@@ -23,4 +23,12 @@ public class DepositAddress {
     public void setAddress(String address) {
         this.address = address;
     }
+
+    @Override
+    public String toString() {
+        return "DepositAddress{" +
+                "currency='" + currency + '\'' +
+                ", address='" + address + '\'' +
+                '}';
+    }
 }

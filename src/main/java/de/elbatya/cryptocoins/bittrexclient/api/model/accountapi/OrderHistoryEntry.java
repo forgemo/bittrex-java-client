@@ -150,4 +150,25 @@ public class OrderHistoryEntry {
     public void setClosed(LocalDateTime closed) {
         this.closed = closed;
     }
+
+    @Override
+    public String toString() {
+        return "OrderHistoryEntry{" +
+                "orderUuid='" + orderUuid + '\'' +
+                ", exchange='" + exchange + '\'' +
+                ", timeStamp=" + timeStamp +
+                ", orderType='" + orderType + '\'' +
+                ", limit=" + limit +
+                ", quantity=" + quantity +
+                ", quantityRemaining=" + quantityRemaining +
+                ", commission=" + commission +
+                ", price=" + price +
+                ", pricePerUnit=" + pricePerUnit +
+                ", isConditional=" + isConditional +
+                ", condition='" + condition + '\'' +
+                ", conditionTarget='" + conditionTarget + '\'' +
+                ", immediateOrCancel=" + immediateOrCancel +
+                ", closed=" + closed +
+                '}';
+    }
 }

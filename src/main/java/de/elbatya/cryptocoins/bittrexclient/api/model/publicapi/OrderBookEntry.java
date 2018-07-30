@@ -25,4 +25,12 @@ public class OrderBookEntry {
     public void setRate(BigDecimal rate) {
         Rate = rate;
     }
+
+    @Override
+    public String toString() {
+        return "OrderBookEntry{" +
+                "Quantity=" + Quantity +
+                ", Rate=" + Rate +
+                '}';
+    }
 }

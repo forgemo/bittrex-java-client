@@ -25,4 +25,12 @@ public class OrderBook {
     public void setSell(List<OrderBookEntry> sell) {
         this.sell = sell;
     }
+
+    @Override
+    public String toString() {
+        return "OrderBook{" +
+                "buy=" + buy +
+                ", sell=" + sell +
+                '}';
+    }
 }
