@@ -106,4 +106,21 @@ public class WithdrawalHistoryEntry {
     public void setInvalidAddress(Boolean invalidAddress) {
         this.invalidAddress = invalidAddress;
     }
+
+    @Override
+    public String toString() {
+        return "WithdrawalHistoryEntry{" +
+                "paymentUuid='" + paymentUuid + '\'' +
+                ", currency='" + currency + '\'' +
+                ", amount='" + amount + '\'' +
+                ", address='" + address + '\'' +
+                ", opened=" + opened +
+                ", authorized=" + authorized +
+                ", pendingPayment=" + pendingPayment +
+                ", txCost=" + txCost +
+                ", txId='" + txId + '\'' +
+                ", canceled=" + canceled +
+                ", invalidAddress=" + invalidAddress +
+                '}';
+    }
 }

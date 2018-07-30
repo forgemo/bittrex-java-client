@@ -34,4 +34,13 @@ public class Ticker {
     public void setLast(BigDecimal last) {
         this.last = last;
     }
+
+    @Override
+    public String toString() {
+        return "Ticker{" +
+                "bid=" + bid +
+                ", ask=" + ask +
+                ", last=" + last +
+                '}';
+    }
 }

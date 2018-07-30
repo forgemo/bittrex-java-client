@@ -116,4 +116,21 @@ public class Market {
     public void setLogoUrl(String logoUrl) {
         this.logoUrl = logoUrl;
     }
+
+    @Override
+    public String toString() {
+        return "Market{" +
+                "marketCurrency='" + marketCurrency + '\'' +
+                ", marketCurrencyLong='" + marketCurrencyLong + '\'' +
+                ", baseCurrency='" + baseCurrency + '\'' +
+                ", baseCurrencyLong='" + baseCurrencyLong + '\'' +
+                ", minTradeSize=" + minTradeSize +
+                ", marketName='" + marketName + '\'' +
+                ", isActive=" + isActive +
+                ", created=" + created +
+                ", notice='" + notice + '\'' +
+                ", isSponsored=" + isSponsored +
+                ", logoUrl='" + logoUrl + '\'' +
+                '}';
+    }
 }

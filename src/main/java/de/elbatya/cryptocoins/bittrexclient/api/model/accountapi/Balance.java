@@ -70,4 +70,17 @@ public class Balance {
     public void setUuid(String uuid) {
         this.uuid = uuid;
     }
+
+    @Override
+    public String toString() {
+        return "Balance{" +
+                "currency='" + currency + '\'' +
+                ", balance=" + balance +
+                ", available=" + available +
+                ", pending=" + pending +
+                ", cryptoAddress='" + cryptoAddress + '\'' +
+                ", requested=" + requested +
+                ", uuid='" + uuid + '\'' +
+                '}';
+    }
 }

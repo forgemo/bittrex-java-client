@@ -161,4 +161,27 @@ public class OpenOrder {
     public void setConditionTarget(String conditionTarget) {
         this.conditionTarget = conditionTarget;
     }
+
+    @Override
+    public String toString() {
+        return "OpenOrder{" +
+                "uuid='" + uuid + '\'' +
+                ", orderUuid='" + orderUuid + '\'' +
+                ", exchange='" + exchange + '\'' +
+                ", orderType='" + orderType + '\'' +
+                ", quantity=" + quantity +
+                ", quantityRemaining=" + quantityRemaining +
+                ", limit=" + limit +
+                ", commissionPaid=" + commissionPaid +
+                ", price=" + price +
+                ", pricePerUnit=" + pricePerUnit +
+                ", opened=" + opened +
+                ", closed=" + closed +
+                ", cancelInitiated=" + cancelInitiated +
+                ", immediateOrCancel=" + immediateOrCancel +
+                ", isConditional=" + isConditional +
+                ", condition='" + condition + '\'' +
+                ", conditionTarget='" + conditionTarget + '\'' +
+                '}';
+    }
 }
