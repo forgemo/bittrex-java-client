@@ -15,7 +15,7 @@ public class Currency {
     private String coinType;
     private String baseAddress;
     private String notice;
-
+    private Boolean isRestricted;
 
     public String getCurrency() {
         return currency;
@@ -81,5 +81,11 @@ public class Currency {
         this.notice = notice;
     }
 
+    public Boolean getIsRestricted() {
+        return isRestricted;
+    }
 
+    public Boolean setIsRestricted() {
+        return isRestricted;
+    }
 }

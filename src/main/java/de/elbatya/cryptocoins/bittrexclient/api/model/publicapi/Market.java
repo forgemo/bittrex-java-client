@@ -28,6 +28,8 @@ public class Market {
 
     private String logoUrl;
 
+    private Boolean isRestricted;
+
 
     public String getMarketCurrency() {
         return marketCurrency;
@@ -115,5 +117,13 @@ public class Market {
 
     public void setLogoUrl(String logoUrl) {
         this.logoUrl = logoUrl;
+    }
+
+    public Boolean getIsRestricted() {
+        return isRestricted;
+    }
+
+    public void setIsRestricted(Boolean restricted) {
+        isRestricted = restricted;
     }
 }
