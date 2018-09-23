@@ -25,6 +25,7 @@ public class Market {
     private String notice;
 
     private Boolean isSponsored;
+    private Boolean isRestricted;
 
     private String logoUrl;
 
@@ -107,6 +108,14 @@ public class Market {
 
     public void setIsSponsored(Boolean sponsored) {
         isSponsored = sponsored;
+    }
+
+    public Boolean getIsRestricted() {
+        return isRestricted;
+    }
+
+    public void setIsRestricted(Boolean restricted) {
+        isRestricted = restricted;
     }
 
     public String getLogoUrl() {
