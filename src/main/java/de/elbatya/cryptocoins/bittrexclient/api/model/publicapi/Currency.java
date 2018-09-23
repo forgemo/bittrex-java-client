@@ -12,6 +12,7 @@ public class Currency {
     private Integer minConfirmation;
     private BigDecimal txFee;
     private Boolean isActive;
+    private Boolean isRestricted;
     private String coinType;
     private String baseAddress;
     private String notice;
@@ -55,6 +56,14 @@ public class Currency {
 
     public void setIsActive(Boolean active) {
         isActive = active;
+    }
+
+    public Boolean getIsRestricted() {
+        return isRestricted;
+    }
+
+    public void setIsRestricted(Boolean restricted) {
+        isRestricted = restricted;
     }
 
     public String getCoinType() {
