@@ -19,6 +19,7 @@ public class Market {
     private String marketName;
 
     private Boolean isActive;
+    private Boolean isRestricted;
 
     private LocalDateTime created;
 
@@ -83,6 +84,14 @@ public class Market {
 
     public void setIsActive(Boolean active) {
         isActive = active;
+    }
+
+    public Boolean getIsRestricted() {
+        return isRestricted;
+    }
+
+    public void setIsRestricted(Boolean restricted) {
+        isRestricted = restricted;
     }
 
     public LocalDateTime getCreated() {
