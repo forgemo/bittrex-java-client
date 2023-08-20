@@ -1,3 +1,6 @@
+!!! ***This library has been discontinued and archived*** !!!
+
+
 [![Build Status](https://travis-ci.org/forgemo/bittrex-java-client.svg?branch=develop)](https://travis-ci.org/forgemo/bittrex-java-client)
 
 # bittrex-java-client
