@@ -126,4 +126,23 @@ public class MarketSummary {
     public void setCreated(LocalDateTime created) {
         this.created = created;
     }
+
+    @Override
+    public String toString() {
+        return "MarketSummary{" +
+                "marketName='" + marketName + '\'' +
+                ", high=" + high +
+                ", low=" + low +
+                ", volume=" + volume +
+                ", last=" + last +
+                ", baseVolume=" + baseVolume +
+                ", timeStamp=" + timeStamp +
+                ", bid=" + bid +
+                ", ask=" + ask +
+                ", openBuyOrders=" + openBuyOrders +
+                ", openSellOrders=" + openSellOrders +
+                ", prevDay=" + prevDay +
+                ", created=" + created +
+                '}';
+    }
 }

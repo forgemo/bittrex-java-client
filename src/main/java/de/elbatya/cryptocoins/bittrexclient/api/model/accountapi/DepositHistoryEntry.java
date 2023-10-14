@@ -142,4 +142,24 @@ public class DepositHistoryEntry {
     public void setIsInvalidAddress(Boolean invalidAddress) {
         this.invalidAddress = invalidAddress;
     }
+
+    @Override
+    public String toString() {
+        return "DepositHistoryEntry{" +
+                "id='" + id + '\'' +
+                ", confirmations=" + confirmations +
+                ", lastUpdated=" + lastUpdated +
+                ", paymentUuid='" + paymentUuid + '\'' +
+                ", currency='" + currency + '\'' +
+                ", amount=" + amount +
+                ", cryptoAddress='" + cryptoAddress + '\'' +
+                ", opened=" + opened +
+                ", authorized=" + authorized +
+                ", pendingPayment=" + pendingPayment +
+                ", txCost=" + txCost +
+                ", txId='" + txId + '\'' +
+                ", canceled=" + canceled +
+                ", invalidAddress=" + invalidAddress +
+                '}';
+    }
 }

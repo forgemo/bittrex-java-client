@@ -81,5 +81,17 @@ public class Currency {
         this.notice = notice;
     }
 
-
+    @Override
+    public String toString() {
+        return "Currency{" +
+                "currency='" + currency + '\'' +
+                ", currencyLong='" + currencyLong + '\'' +
+                ", minConfirmation=" + minConfirmation +
+                ", txFee=" + txFee +
+                ", isActive=" + isActive +
+                ", coinType='" + coinType + '\'' +
+                ", baseAddress='" + baseAddress + '\'' +
+                ", notice='" + notice + '\'' +
+                '}';
+    }
 }
